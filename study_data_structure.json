@@ -1,0 +1,88 @@
+{
+  "study_programs": [
+    {
+      "id": null,
+      "title": "Administrativ koordinator",
+      "description": "Administrativ koordinator er utdanningen for deg som vil ta neste steg i rollen som nøkkelperson i virksomheten. Du lærer å støtte ledere og avdelinger med trygg administrasjon, økonomi og prosjektarbeid og å skape god flyt i kommunikasjon, samhandling og rutiner på tvers.",
+      "credits": null,
+      "language": null,
+      "level": null,
+      "why_choose": "Når oppgaver, systemer og mennesker skal spille sammen, trengs fagfolk som får hverdagen til å flyte. Med denne utdanningen bygger du en solid verktøykasse i administrasjon, økonomiforståelse, kommunikasjon og prosjektarbeid. Du trener på reelle situasjoner fra arbeidslivet og lærer å prioritere, strukturere og kvalitetssikre. Resultatet er økt trygghet i rollen, bedre støtte til ledere og team, og større påvirkningskraft i utviklingsarbeid som løfter hele organisasjonen.",
+      "what_learn": "I studiet utvikler du kjernekompetanse i moderne kontordrift: strukturert saks- og dokumentarbeid, tydelig skriftlig og muntlig kommunikasjon, bruk av digitale verktøy, grunnleggende økonomi og effektiv lederstøtte. Du lærer å planlegge og gjennomføre endring, håndtere konflikter og drive små og mellomstore prosjekter med god kvalitet og fremdrift.\nKlikk på et emne for å lese mer om hva du lærer.",
+      "teaching_format": "Nettbasert deltid med fysiske samlinger",
+      "mandatory_attendance": "Undervisning og samlingerStudiet gjennomføres som nettbasert deltid med fysiske samlinger ved studiested Fredrikstad. Hvert emne har normalt én samling på tre dager, og det er ukentlig nettundervisning mellom samlingene. Tidspunkter kan justeres ved behov.Oppdatert informasjon om samlingsuker, undervisningstider og eventuelle endringer publiseres påstudentsiden for Fredrikstad.Obligatorisk oppmøteDu må delta på minst75 % av de fysiske samlingenefor å få vurdert eksamen. Praksis har egne regler for oppmøte – se studieplanen for detaljer. Manglende oppmøte kan føre til at du ikke får fullført emnet.",
+      "police_certificate": null,
+      "career_opportunities": "Med en fagskolegrad iAdministrativ koordinatoråpner det seg mange muligheter i både offentlig og privat sektor. Du blir en nøkkelperson som får hjulene til å gå rundt – en som skaper struktur, støtter ledelsen og bidrar til effektiv drift.Kompetansen gjør deg kvalifisert for roller somadministrativ koordinator, kontorleder, teamleder, HR- eller personalmedarbeider, prosjektassistent eller prosjektkoordinator. Du kan også jobbe som lederstøtte i små og store virksomheter der samhandling, planlegging og kvalitet er avgjørende for resultatet.",
+      "contact_info": "Har du noen spørsmål?Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post:vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/ledelse/administrativ-koordinator"
+    }
+  ],
+  "courses": [
+    {
+      "title": "Organisasjonsforståelse",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66A-EILADK/2025-host",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "title": "Kommunikasjon, inkludert digitale verktøy",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66B-EILADK/2025-host",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "title": "Administrativ lederstøtte, inkludert økonomi og personalarbeid",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66C-EILADK/2026-var",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "title": "Endring og utvikling",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66D-EILADK/2026-host",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "title": "Kontordrift/ praktisk lederstøtte",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66E-EILADK/2026-host",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "title": "Hovedprosjekt (faglig fordypning)",
+      "credits": "10 studiepoeng",
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/02AL66F-EILADK/2027-var",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    }
+  ]
+}

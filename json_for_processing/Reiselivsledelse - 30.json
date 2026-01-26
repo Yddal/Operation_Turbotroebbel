@@ -1,0 +1,59 @@
+{
+  "study_programs": [
+    {
+      "id": "Reiselivsledelse - 30",
+      "title": "Reiselivsledelse",
+      "description": "Reiselivsledelse er videreutdanningen for deg som vil utvikle, lede og forbedre bærekraftige opplevelser i reiseliv og HoReCa. Du lærer å gå fra idé til drift: teste forretningsmodeller, lede prosjekter og team, styre økonomi og servicekvalitet – slik at du kan skape verdifulle gjesteopplevelser og bedre resultater i virksomheten.",
+      "study_location": "Jessheim (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Reiselivet endrer seg raskt, og gjestene forventer kvalitet, autentiske opplevelser og tydelige bærekraftsgrep. Her får du bransjenær kompetanse som virker i praksis. Du lærer å omsette ambisjoner til handling med prosjektledelse, økonomistyring og markedstiltak som henger sammen. | Bærekraft er ikke et tillegg, men en del av hvert tema i studiet – fra forretningsmodell og drift til markedsføring og service. Slik står du sterkere i konkurransen, enten du vil forbedre dagens virksomhet eller etablere noe nytt.",
+      "what_learn": "Du får en helhetlig kompetanse innen entreprenørskap og innovasjon, bærekraftig ledelse, økonomi og markedsføring, samt hotell- og restaurantledelse. Undervisningen kobler teori til reelle caser, slik at du trener på å planlegge, gjennomføre og evaluere tiltak som gir effekt i drift.\nStudiet består av tre emner, klikk på et emne for å lese mer hva du lærer.",
+      "teaching_format": "Nettbasert deltid med fysiske samlinger",
+      "mandatory_attendance": "Undervisning og samlinger – studieåret 2025–2026 | Studiet gjennomføres som nettbasert deltidsstudium med samlinger ved studiested Jessheim. Samlingene varer normalt to–tre dager og kombinerer forelesninger, case, gruppearbeid og veiledning. | Mellom samlingene gjennomføres nettundervisning, vanligvis på en fast ukedag. Endelig plan for samlingsuker og undervisningstider publiseres på | studentsiden for Jessheim | før oppstart. | Obligatorisk oppmøte | Du må delta på minst | 75 % av de fysiske samlingene | for å få vurdert eksamen. Manglende oppmøte kan føre til at du ikke får fullført emnet.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i fagutøvelsen. Du lærer å | planlegge, lede og forbedre | drift og gjesteopplevelser, bruke | økonomi- og markedsføringsverktøy | til bedre beslutninger og | integrere bærekraft | i forretningsmodellen. Utdanningen styrker handlingskompetansen din slik at du kan ta mer ansvar for kvalitet, team og resultat. | Kompetansen er særlig relevant i | destinasjonsselskaper, hotell og restaurant, attraksjoner og aktivitets-/opplevelsesbedrifter, arrangementer/festivaler, turistinformasjon og gründermiljøer | .",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/reiseliv/reiselivsledelse"
+    }
+  ],
+  "courses": [
+    {
+      "id": "01AR53A EIRLEDKH25",
+      "title": "Gründervirksomhet",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AR53A-EIRLEDKH25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om de nødvendige trinnene og prosessene for å etablere en ny bedrift | har innsikt i konseptet bærekraft og kan integrere bærekraftige prinsipper og identifisere bærekrafts utfordringer og – muligheter i forretningsvirksomheten | forstår egen bransjes juridiske, økonomiske og markedsmessige aspekter som er viktig i etableringsfasen | har bransjekunnskap til å benytte seg av ulike verktøy og metoder for effektiv prosjektledelse for å håndtere ressurser, risiko og tidsrammer.",
+        "skills": "Ferdigheter | Studenten | kan anvende kreativitetsmetoder som Design Thinking for å utvikle innovative løsninger og produktutvikling | kan anvende verktøy som Business Model Canvas for å beskrive, analysere og optimalisere forretningsmodellen | kan kartlegge og utvikle en forretningsplan som integrerer økonomisk, sosial og miljømessig bærekraft som har en positiv innvirkning på samfunnet",
+        "competence": "Generell kompetanse | Studenten | kan utvikle bærekraftige reiselivsprodukter og/eller -tjenester | kan bygge relasjoner med medarbeidere, kunder og andre interessenter | kan utføre personalledelse og lede medarbeidere | har forståelse om begrepet samfunnsansvar og bidra til organisasjonsutvikling | har forståelse for bærekraftige prinsipper og verdier i beslutningsprosesser og praksis knyttet til ledelse, økonomi og markedsføring"
+      }
+    },
+    {
+      "id": "01AR53B EIRLEDKH25",
+      "title": "Bærekraftig ledelse, økonomi og markedsføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AR53B-EIRLEDKH25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om organisasjonsteori, organisasjonskultur, ledelsesteori og motivasjonsteori | har innsikt i aktuelle lover innenfor LØM-emnet og forstår hvilken betydning disse har for bedriftens arbeidsbetingelser | har kunnskap om kjøpsatferd, merkevarebygging og markedsplanlegging | har kunnskap om sentrale økonomibegreper, bedriftsetablering, enkle kalkyler, lønnsomhetsbetraktninger, budsjettering og regnskapsanalyse",
+        "skills": "Ferdigheter | Studenten | kan anvende verktøy som Business Model Canvas for å beskrive, analysere og optimalisere forretningsmodellen | kan bygge og lede et team for å realisere forretningsideer og forstår betydningen av samarbeid og teamarbeid i entreprenørskapsprosessen | kan anvende og utvikle en forretningsplan som integrerer økonomisk, sosial og miljømessig bærekraft som har en positiv innvirkning på samfunnet",
+        "competence": "Generell kompetanse | Studenten | kan utvikle bærekraftige reiselivsprodukter og/eller -tjenester | kan bygge relasjoner med medarbeidere, kunder og andre interessenter | kan utføre arbeid ved bruk av IKT og regneark til å løse oppgaver innenfor økonomistyring har forståelse om bærekraftige prinsipper, teorier og praksiser innen ledelse, økonomi og markedsføring som er relevante for reiselivsbransjen | har utviklet en etisk grunnholdning for å kunne utøve god personalledelse, og behandle medarbeidere, kunder og samarbeidspartnere med respekt | har forståelse for bærekraftige prinsipper og verdier i beslutningsprosesser og etisk grunnholdning knyttet til ledelse, økonomi og markedsføring"
+      }
+    },
+    {
+      "id": "01AR53C EIRLEDKH25",
+      "title": "Hotell- og restaurantledelse",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AR53C-EIRLEDKH25/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har innsikt i strategier, prosesser og metoder innenfor fagområdet; herunder sentrale temaer innenfor produkt- og tjenesteutvikling | har kunnskap om ulike typer gjester og innsikt i kulturelle forskjeller og likheter | har innsikt i ulike former for distribusjon og kommunikasjon av hotell- og restaurantprodukter og -tjenester på relevante digitale reiselivsplattformer | forstår hotell- og restaurantbransjens historie, tradisjoner, egenart og plass i samfunnet nasjonalt og globalt.",
+        "skills": "Ferdigheter | Studenten | kan kartlegge en situasjon og identifisere faglige problemstillinger innenfor kommunikasjon og | anvende kommunikasjon i | kundebehandling, service og ledelse | kan kartlegge drift av virksomheter, organisasjoner og offentlig forvaltning, inkludert økonomistyring, bærekraftig | drift og HMS | kan anvende innhentet informasjon i utviklingen av hotell- og restaurantkonsepter | kan anvende interkulturell kompetanse og reflektere over kulturforståelse i forhold til ulike kundegrupper nasjonalt og internasjonalt",
+        "competence": "Generell kompetanse | Studenten | kan utføre varierte arbeidsoppgaver og prosjekter som strekker seg over tid, alene, som leder eller som deltaker i en gruppe | kan utvikle tjenester basert på fagstoff som teorier, problemstillinger og løsninger både skriftlig, muntlig og gjennom andre relevante uttrykksformer | har forståelse om den helhetlige produksjon og leveranse av hotell- og restaurantprodukter, samt de prosesser, strukturer og menneskeorienterte aspekter som inngår i drift av hoteller og restauranter | har forståelse om betydningen av service, reiselivsnæringens bærekraft og internasjonale, samfunnsmessige rolle | kan bygge relasjoner med fagfeller og på tvers av fag, og næringsorganisasjoner og andre interessenter | kan utføre arbeid og leveranser i prosjekter og grupper, og reflektere over prosjekt som arbeidsform med vekt på gruppedynamikk og sluttprodukt"
+      }
+    }
+  ]
+}

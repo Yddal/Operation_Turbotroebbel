@@ -1,0 +1,59 @@
+{
+  "study_programs": [
+    {
+      "id": "Spesialisering baker- og konditorfaget - 30",
+      "title": "Spesialisering baker- og konditorfaget",
+      "description": "Spesialisering baker- og konditorfaget er for deg som vil styrke rollen din i moderne produksjon. Du lærer å bruke råvarekunnskap, prosessforståelse og ledelse for å sikre kvalitet, bærekraft og stabile resultater i både bakeri og konditori.",
+      "study_location": "Sørumsand (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Baker- og konditorbransjen endrer seg raskt – med nye teknologier, strengere kvalitetskrav og økt fokus på bærekraft. Dette studiet gir deg et faglig løft som gjør deg tryggere i jobben og bedre rustet til å ta ansvar i produksjonen.\nDu får innsikten som gjør det mulig å forbedre kvalitet, utvikle produkter og bidra til mer effektive og bærekraftige prosesser. Enten du vil videre i karrieren eller styrke dagens rolle, gir studiet deg kompetansen arbeidslivet etterspør.",
+      "what_learn": "I dette studiet lærer du hvordan råvarer, prosesser og teknikker påvirker kvaliteten i bakeri- og konditorproduksjon. Du får praktisk innsikt i råvarekjemi, prosessforståelse og kvalitetsarbeid, og bruker din egen erfaring aktivt i oppgaver og refleksjon.\nDu utvikler også ferdigheter innen ledelse, økonomi og forbedringsarbeid, slik at du kan ta tryggere faglige valg og bidra til mer effektive og bærekraftige produksjoner.\nStudiet består av tre emner à 10 studiepoeng. Klikk på emnene under for å se hva du lærer.",
+      "teaching_format": "Nettbasert deltid med fysiske samlinger",
+      "mandatory_attendance": "Undervisning og samlinger | Studiet gjennomføres som nettbasert deltidsutdanning med fysiske samlinger ved studiested Sørumsand. Samlingene holdes vanligvis flere ganger per semester og varer to til tre dager. Mellom samlingene har du nettundervisning, faglig veiledning og digitale læringsaktiviteter. | Undervisningen kombinerer faglige gjennomganger, praktiske oppgaver, arbeidskrav, samarbeid i grupper og individuell veiledning. Målet er at du skal kunne kombinere studiet med jobb og familieliv, samtidig som du får tett faglig oppfølging. | Planlagte samlingsuker for første studieår publiseres før studiestart. Tidspunkter og eventuelle endringer oppdateres i læringsplattformen. | Oppdatert informasjon for pågående kull finner du på studentsiden for | studiested Sørumsand | .",
+      "police_certificate": null,
+      "career_opportunities": "Kompetansen du får i studiet brukes direkte i produksjon, kvalitetsarbeid og faglig utvikling i bakeri- og konditorbransjen. Du blir tryggere i å ta faglige beslutninger, lede prosesser og bidra til mer stabile og bærekraftige produksjoner. | Mange tar på seg større ansvar i egen bedrift – for eksempel innen produksjonsledelse, kvalitetsoppfølging, produktutvikling eller forbedringsarbeid. Utdanningen gir deg også et godt grunnlag dersom du ønsker å starte egen virksomhet, eller videreutvikle rollen din som fagperson. | Studiet gjør deg mer attraktiv for arbeidsplasser som trenger medarbeidere med dypere prosessforståelse, selvstendighet og dokumentert kvalitet i hele produksjonsløpet.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/mat-og-drikke/spesialisering-baker-og-konditorfaget"
+    }
+  ],
+  "courses": [
+    {
+      "id": "01TK60A EITKBKF",
+      "title": "Råvarenes egenskaper, bruksområder og kjemi i produksjonsprosessen",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TK60A-EITKBKF/2024-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om relevante råvarer og råvarenes bruksområder og påvirkning på ferdig produkt | har kunnskap om råvarens kvalitet og optimal prosessering for trygg og bærekraftig matproduksjon | har kunnskap om egenskapene til relevante råvarer som benyttes i henholdsvis baker- og konditorbransjen, deres alternativer og bærekraftpåvirkning | har kunnskap om utvikling av resepter, sammensetningen av råvarer, og hvordan dette påvirker produksjon, kvalitet og sluttprodukt | har kunnskap om relevante egenskaper, bruksområder og de ulike prosessene knyttet til relevante hevemidler | kjennskap til hvilke miljømessige og politiske problemstillinger som er knyttet til produksjon av relevante råvarer for fagområdet | har kunnskap om relevante analysemetoder og hvordan disse benyttes i produksjon av råvarene",
+        "skills": "Ferdigheter | Studenten | kan anvende sin faglige kunnskap om råvarenes egenskaper og kjemi til å kombinere råvarer hensiktsmessig for å oppnå ønsket tekstur, smak og kvalitet i produktene | Kan kartlegge forbrukerens og samfunnets ønsker og behov for råvarealternativer i et folkehelseperspektiv, og tilpasse seg etter dette | kan finne informasjon og fagstoff som er relevant for ulike problemstillinger knyttet til råvareproduksjon | kan gjøre rede for ulike kjemiske prosesser og råvareinteraksjoner innenfor baker- og konditorfaget",
+        "competence": "Generell kompetanse | Studenten | kan i samtale med forbrukere, kollegaer og andre interessenter gi begrunnelse for råvarevalg, råvarenes alternativ og bærekrafthensyn | har utviklet en etisk grunnholdning og kan reflektere over etiske dilemmaer knyttet til valg av råvarer og bærekraftig praksis i bakeri- og konditorbransjen | kan samarbeide og kommunisere effektivt med fagfeller og andre interessenter omkring råvarer, og råvarenes egenskaper i produksjonsprosesser | kan planlegge, dokumentere og gjennomføre produktutvikling basert på kunnskap om råvarer, kjemiske prosesser og råvarenes interaksjoner, i tråd med de etiske krav, forskrifter og lover som gjelder"
+      }
+    },
+    {
+      "id": "01TK60B EITKBKF",
+      "title": "Produksjons- og bedriftsledelse Baker- og konditorfaget",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TK60B-EITKBKF/2024-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om organisasjonsteori, organisasjonskultur, ledelsesteori og motivasjonsteori | har innsikt i aktuelle lover innenfor LØM-emnet og forstår hvilken betydning disse har for bedriftens arbeidsbetingelser | har kunnskap om kjøpsatferd, merkevarebygging og markedsplanlegging | har kunnskap om sentrale økonomibegreper, bedriftsetablering, enkle kalkyler, lønnsomhetsbetraktninger, budsjettering og regnskapsanalyse | har erfaringsbasert kunnskap om bransjens økonomiske utvikling og bransjens ledelsesutfordringer, med bevissthet om betydning av bærekraftige strategier for å møte fremtidige krav og forventninger | har kunnskap om bærekraftige prinsipper, teorier og praksiser innen ledelse, økonomi og markedsføring som er relevante for baker- og konditorbransjen",
+        "skills": "Ferdigheter | Studenten | kan forstå og analysere et regnskap, og kan anvende denne informasjon for iverksetting av tiltak ved avvik fra budsjett og planer | kan utarbeide et budsjett og sette opp enkle kalkyler | kan gjøre rede for og vurdere menneskelige, arbeidsmiljømessige, etiske og økonomiske utfordringer i lys av gjeldende lovkrav og bedriftens og bransjens behov | kan anvende relevante ledelsesverktøy og -teknikker for å analysere og håndtere bærekraftige utfordringer og muligheter i baker- og konditorbedrifter | kan utarbeide en markedsplan og sette opp handlingsplaner for å gjennomføre denne | kan innhente, formidle og presentere faglig informasjon, ideer og løsninger både muntlig og skriftlig | kan kartlegge en bedrifts arbeidsbetingelser, identifisere faglige problemstillinger, utarbeide mål og iverksette begrunnede tiltak",
+        "competence": "Generell kompetanse | Studenten | kan innen gitte tidsfrister, alene og i samarbeid med andre planlegge, gjennomføre, dokumentere og levere arbeidsoppgaver og prosjekter innenfor LØM-emnet. | kan kommunisere på en tydelig og forståelig måte, og kan utveksle faglige synspunkter med medarbeidere, kunder og andre interessenter | har kompetanse i effektiv bruk av IKT og kan bruke regneark til å løse oppgaver innenfor økonomistyring | kan utarbeide og følge opp planer | kan utøve personalledelse og lede medarbeidere | kan behandle medarbeidere, kunder og andre med respekt | kan utøve samfunnsansvar og bidra til organisasjonsutvikling | skal kunne integrere bærekraftige prinsipper og verdier i beslutningsprosesser og praksis knyttet til ledelse, økonomi og markedsføring"
+      }
+    },
+    {
+      "id": "01TK60C EITKBKF",
+      "title": "Kvalitets- og produksjonsprosesser i bakerier og konditorier",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TK60C-EITKBKF/2025-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om hele produksjonsprosessen fra råvare til ferdig produkt og hva som påvirker tekstur, smak og kvalitet i produktene | har kunnskap om sensorikkens rolle i bedømminger av smak og kvalitet | har kunnskap om reseptens oppbygging og de kjemiske prosesser som skjer under tilvirkning som er av betydning for det ferdige produktet | har kunnskap om hvilke ulike parametere som påvirker valg av produksjonsmetoder og teknikk for bakere- og konditorer, som produksjonsvolum, salgstid, oppbevaring og holdbarhet | har kjennskap til bransjen og yrkesfeltet, inkludert utfordringer og muligheter knyttet til nyskapende og bærekraftig produksjon og forbruk | har innsikt i relevant regelverk, avtaler og krav til kvalitet, inkludert IK, HACCP og HMS med tilhørende forskrifter, relatert til produksjon av baker- og konditorvarer | kan oppdatere sin yrkesfaglige kunnskap knyttet til nye produksjonsmetoder og reseptutvikling | har kunnskap om historien til baker- og konditorbransjen, dens egenart og plass i samfunnet som grunnlag for etisk bevissthet, formidling og historiefortelling",
+        "skills": "Ferdigheter | Studenten | kan anvende og reflektere over ulike produksjonsprosesser og justere disse under veiledning for å oppnå ønsket resultat til riktig formål | kan gjøre rede for valg av produksjonsprosesser basert på en helhetlig vurdering av ulike parametere i produksjonen | kan kartlegge ulike produksjonsprosesser, identifisere faglige problemstillinger og behov for iverksettelse av tiltak i produksjonsprosessen | kan anvende produksjonsplanlegging og korrekt lagring og embalering til å redusere svinn | kan reflektere over de ernæringsmessige prinsippene i produksjonsprosesser og ferdig produkt | kan finne og henvise til informasjon og fagstoff som er relevant for faglige problemstillinger knyttet til kvalitets- og produksjonsprosesser for bakere og konditorer",
+        "competence": "Generell kompetanse | Studenten | kan kombinere teori, egen praksis og bidrag fra samarbeidspartnere fra ulike deler av verdikjeden i utvikling av nye produkter | kan utvikle og tilpasse arbeidsmetoder, produkter og tjenester som tar hensyn til ulike målgruppers behov og ønsker | kan gjennomføre produksjonsplanlegging med alle nødvendige innsatsfaktorer i ulike kapasiteter | kan forklare hvordan forskjellige prosesser påvirker smak og kvalitet i ferdig produkt | kan sikre at reseptutvikling er i tråd med gjeldende relevante forskrifter, lover, standarder og etiske krav"
+      }
+    }
+  ]
+}

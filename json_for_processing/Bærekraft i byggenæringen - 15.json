@@ -1,0 +1,59 @@
+{
+  "study_programs": [
+    {
+      "id": "Bærekraft i byggenæringen - 15",
+      "title": "Bærekraft i byggenæringen",
+      "description": "Bærekraft i byggenæringen er videreutdanningen for deg som vil bidra til grønn omstilling i bygg- og anleggssektoren. Gjennom korte, fleksible emner lærer du å ta bærekraftige valg i praksis – fra ombruk av materialer til energieffektive bygg og helhetlige energisystemer. Kompetansen gjør deg til en viktig ressurs i arbeidet for smartere og mer miljøvennlige bygg.",
+      "study_location": "Kongsberg (Samlingsbasert)",
+      "credits": 15,
+      "language": "Norsk",
+      "level": "Enkeltemne",
+      "why_choose": "Bygg og anleggsbransjen er ansvarlig for 40 prosent av både klimagassutslipp, materialbruk og energibruk. Byggebransjen trenger riktig kompetanse for å redusere klimabelastningene og nå ambisiøse klimamål.\nLær om hvordan bærekraftig teknologi og materialer kan implementeres i praksis for å skape grønnere, og mer miljøvennlige bygg. Du vil også få kunnskap og innsikt om hvordan du innpasser effektive systemer for energiproduksjon og smarte lagringsløsninger for å optimalisere byggets totale energibruk. Bli oppdatert på de nyeste teknologiene og metodene for å maksimere energiytelsen i bygg, samtidig som vi utforsker de nyeste trendene innen fornybar energi. Bli kjent med gjeldende regelverk og incentiver innenfor energieffektive bygg, slik at du kan navigere gjennom komplekse juridiske rammer og dra nytte av tilgjengelige støtteordninger. Med kunnskap om resirkulære byggematerialer til utslippsfrie byggeprosesser, vil du være rustet for å lede an i fremtidens byggebransjen.\nDette studiet er en del av | Industrifagskolen | .",
+      "what_learn": "Studiet Bærekraft i byggenæringen gir deg oppdatert kompetanse i hvordan bygge- og eiendomsbransjen kan redusere klimagassutslipp, materialbruk og energiforbruk. Du lærer å forstå og bruke prinsipper for sirkulær økonomi, energieffektivisering og bærekraftig ressursforvaltning – slik at du kan bidra til grønn omstilling i praksis.\nUtdanningen består av tre korte og fleksible emner som hver gir 5 studiepoeng, og du kan velge å ta ett, to eller alle tre. Emnene kombinerer faglig innsikt, praktiske verktøy og casearbeid utviklet i samarbeid med næringslivet. I søknadsskjemaet velger du hvilke emner du vil ta.\nKlikk på et enkeltemne for å gå til studiesiden for det aktuelle emnet du er interessert i. | Der kan du kan lese mer om hva du lærer og undervisningsplan.",
+      "teaching_format": null,
+      "mandatory_attendance": "Undervisning og samlinger | Studiet kombinerer nettundervisning med fysiske samlinger ved studiested Kongsberg. Hvert emne gjennomføres som et kort deltidsløp over omtrent 9–10 uker, og gir 5 studiepoeng. | Undervisningen foregår vanligvis én kveld i uken på nett (2–3 timer), kombinert med én fysisk samling ved studiestedet. Samlingen brukes til fordypning, praktiske øvelser og erfaringsutveksling. | Gjennom studiet veksler du mellom nettbasert læring, veiledning og arbeid med oppgaver, og får tett oppfølging fra faglærere. Studiet legger vekt på praktisk anvendelse av bærekraftige løsninger i bygg og energisystemer.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i å planlegge og vurdere bærekraftige løsninger i bygge- og eiendomsbransjen. | Du lærer å analysere energibruk, materialvalg og ressursflyt – og å foreslå tiltak som reduserer miljøpåvirkning og driftskostnader. | Kompetansen gjør deg i stand til å bidra i utvikling, drift og vedlikehold av bygg som oppfyller dagens og fremtidens krav til energi og miljø. Du kan ta ansvar for veiledning, rådgivning og kvalitet i prosjekter der klima, energi og bærekraft står sentralt. | Utdanningen er særlig relevant for arbeid i | entreprenør- og byggmesterbedrifter, eiendomsforvaltning, kommunale og statlige virksomheter, energiselskaper og rådgivende ingeniørfirmaer | . Du får en bred og praktisk kompetanse som gjør deg til en verdifull ressurs i overgangen til en grønnere byggenæring.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. | Studiekoordinator: | Helene Eikefjord – e-post: | heleneeik@afk.no | Du kan også | melde din interesse i dette skjemaet | , så vil vi ta kontakt med deg.",
+      "study_url": "https://fagskolen-viken.no/studier/bygg-og-anlegg/baerekraft-i-byggenaeringen"
+    }
+  ],
+  "courses": [
+    {
+      "id": null,
+      "title": "Energirådgiver",
+      "credits": 5,
+      "url": "https://fagskolen-viken.no/studier/bygg-og-anlegg/energiradgiver",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "id": null,
+      "title": "Helhetlig energisystemer",
+      "credits": 5,
+      "url": "https://fagskolen-viken.no/studier/bygg-og-anlegg/helhetlig-energisystemer",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    },
+    {
+      "id": null,
+      "title": "Praktisk ombruk og sirkulærøkonomi",
+      "credits": 5,
+      "url": "https://fagskolen-viken.no/studier/bygg-og-anlegg/praktisk-ombruk-og-sirkulaerokonomi",
+      "study_level": null,
+      "learning_outcomes": {
+        "knowledge": null,
+        "skills": null,
+        "competence": null
+      }
+    }
+  ]
+}

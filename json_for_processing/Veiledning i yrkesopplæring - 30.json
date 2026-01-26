@@ -1,0 +1,59 @@
+{
+  "study_programs": [
+    {
+      "id": "Veiledning i yrkesopplæring - 30",
+      "title": "Veiledning i yrkesopplæring",
+      "description": "Veiledning i yrkesopplæring er videreutdanningen for deg som veileder lærlinger eller kolleger i bedrift. Du utvikler trygg veilederkompetanse i kommunikasjon, vurdering og opplæring på arbeidsplassen, slik at lærlinger får best mulig læringsutbytte og bedriften bygger varig kompetanse.",
+      "study_location": "Kjeller (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Studiet gir deg faglig trygghet i rollen som instruktør eller faglig leder og hjelper deg å planlegge, gjennomføre og evaluere veiledning på en strukturert måte. Du får innsikt i hvordan læreplaner, vurderingskriterier og kommunikasjon kan brukes aktivt i praksisfeltet, og hvordan digitale hjelpemidler kan støtte både veiledning og dokumentasjon.\nUtdanningen legger vekt på refleksjon og etisk bevissthet i møte med lærlinger, og du får praktiske verktøy for å forebygge og håndtere konflikter. Veiledning i yrkesopplæring er utviklet for deg som står i jobb, med ukentlig nettundervisning og samlinger på Kjeller som gjør det mulig å kombinere utdanning og arbeid.",
+      "what_learn": "Gjennom studiet utvikler du en profesjonell veilederpraksis som kombinerer faglig tyngde, struktur og relasjonskompetanse. Du lærer å tilpasse veiledningen til ulike veisøkere, bruke læreplaner og rammeverk i praksis og evaluere opplæringen på en rettferdig og utviklende måte. Studiet gir deg trygghet i kommunikasjon og samarbeid, innsikt i læringsteorier og metoder, og erfaring med bruk av digitale verktøy for planlegging, oppfølging og dokumentasjon.\nStudiet består av tre emner på til sammen 30 studiepoeng.\nKlikk på et emne for å lese mer om hva du lærer.",
+      "teaching_format": null,
+      "mandatory_attendance": "Undervisning og samlinger | Studiet kombinerer nettundervisning med fysiske samlinger ved studiested Kjeller. Samlingene holdes vanligvis to ganger per semester og varer to til tre dager. Oppdatert plan med undervisningstider og samlingsuker for alle emner finner du på | studentsiden for Kjeller | . | Obligatorisk oppmøte | Du må delta på minst | 75 % av de fysiske samlingene | for å få vurdert eksamen. Praksis har egne regler for oppmøte – se studieplanen for detaljer. Manglende oppmøte kan føre til at du ikke får fullført emnet.",
+      "police_certificate": null,
+      "career_opportunities": "Etter videreutdanningen får du styrket rollen din som | veileder, instruktør eller faglig leder | og kan bidra aktivt til | kvalitetsutvikling | i yrkesopplæringen. Du blir trygg i å planlegge og følge opp lærlinger, formidle fagkompetanse og bruke digitale verktøy for vurdering og dokumentasjon. | Kompetansen er etterspurt i | bedrifter, opplæringskontor, offentlig forvaltning og fagmiljøer | som ønsker å utvikle strukturert opplæring og veiledning på arbeidsplassen.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/ledelse/veiledning-i-yrkesopplaering"
+    }
+  ],
+  "courses": [
+    {
+      "id": "01AL65A EILVYA25",
+      "title": "Kommunikasjon og rammeverk, veiledning og læringsarbeid",
+      "credits": 15,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AL65A-EILVYA25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om ulike læringsmetoder og didaktikk | har kunnskap om kommunikasjonsteori og samtaleverktøy. | har kunnskap om mestrings- og motivasjonsfaktorer | har innsikt i relevante lover, forskrifter og bærekraftmål innen eget fagområde som regulerer rettigheter, ansvar,plikter | har kunnskap om veiledning til forskjell fra rådgivning og coaching | har kunnskap om didaktisk relasjonsmodell, og de ulike sidene ved å planlegge, gjennomføre, dokumentere og evaluere veiledning | har kunnskap om overgangen fra skole til arbeidsliv | har innsikt i kulturforståelse og ungdomsutfordringer",
+        "skills": "Ferdigheter | Studenten: | kan anvende kunnskap om læring og didaktikk i veiledningsarbeid | kan anvende kunnskap om kommunikasjonsteori, -teknikker og -former til å samhandle profesjonelt i eget yrke | kan anvende kunnskap om veiledning slik at veisøker tar i bruk egne ressurser og opplever mestring | kan anvende relevante lover, forskrifter og bærekraftsmål innen eget fagområde som regulerer rettigheter, ansvar og plikter | kan anvende didaktisk relasjonsmodell, og de ulike sidene ved å planlegge, gjennomføre, dokumentere og evaluere veiledning | kan anvende kunnskap om overgangen fra skole til arbeidsliv | kan møte ungdom på en ivaretakende måte",
+        "competence": "Generell kompetanse | Studenten: | har utviklet kompetanse om ulike læringsmetoder og didaktikk | har tilegnet seg kommunikasjonsteori og samtaleverktøy. | har forståelse for mestrings- og motivasjonsfaktorer | har innsikt i relevante lover, forskrifter og bærekraftsmål innen eget fagområde som regulerer rettigheter, ansvar og plikter | kan skille veiledning til forskjell fra rådgivning og coaching | kan utføre arbeid etter didaktisk relasjonsmodell, og de ulike sidene ved å planlegge, gjennomføre, dokumentere og evaluere veiledning | har innsikt i prosessen overgangen fra skole til arbeidsliv ( verdiskapning og læring) | har innsikt i kulturforståelse og om ungdomsutfordringer"
+      }
+    },
+    {
+      "id": "01AL65B EILVYA25",
+      "title": "Samarbeid og gruppeprosesser",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AL65B-EILVYA25/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om samarbeid, samarbeidsformer- og ferdigheter | har kunnskap om læreplaner, kompetansemål og læringsmål i veiledningsarbeid | forstår gruppeprosesser og gruppedynamikk | har kunnskap om relasjonsdannelse | har kunnskap forebygging av konflikter | har kunnskap om veiledning i møte med konflikter | har kunnskap om konfliktløsningsmodeller | har kunnskap om læreplanen, tolking og vurdering, interne opplæringsplaner, kobling til fagbegreper fra Vg2 ( bruke disse som verktøy) | har kunnskap om gruppeveiledning | har kunnskap om tjenestevei ved bekymringsfulle forhold",
+        "skills": "Ferdigheter | Studenten: | viser ferdigheter i samarbeid og samarbeidsformer | viser ferdighet i gruppeprosesser og gruppedynamikk | kan bygge og ta vare på relasjoner | viser ferdigheter i konfliktforebyggende arbeid | viser evne til veiledning i møte med konflikter og kan anvende konfliktløsningsmodeller | kan anvende læreplanen, tolke og vurdere, lage interne opplæringsplaner, og koble til fagbegreper fra Vg2 (  anvende disse som verktøy) | bruker tjenestevei med behov for å melde bekymringer",
+        "competence": "Generell kompetanse | Studenten: | har opparbeidet innsikt samarbeid, samarbeidsformer- og ferdigheter | viser forståelse for sammenheng mellom læreplaner, kompetansemål og læringsmål i veiledningsarbeid | har innsikt i gruppeprosesser og gruppedynamikk, og det etiske ansvaret veileder har | har innsikt i betydningen av relasjonsarbeid | viser forståelse for forebygging av konflikter, og hvordan veiledning og konfliktløsningsmodeller kan benyttes i en slik prosess | viser innsikt i læreplanen, tolking og vurdering, interne opplæringsplaner, kobling til fagbegreper fra Vg2 ( bruke disse som verktøy)"
+      }
+    },
+    {
+      "id": "01AL65C EILVYA25",
+      "title": "Utviklingsoppgave fra selvvalgt tema",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01AL65C-EILVYA25/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | har kunnskap om sammenhengen mellom teori og praksis | har innsikt i kunnskapsbasert praksis | kan oppdatere sin kunnskap innen fagområdet",
+        "skills": "Ferdigheter | Studenten: | kan drøfte sammenheng mellom teori og praksis | kan belyse, vurdere og drøfte valgte problemstilling | kan anvende kommunikasjonsferdigheter",
+        "competence": "Generell kompetanse | Studenten: | har forståelse for veilederrollen i opplæringen | kan benytte og henvise til relevant informasjon, fagstoff og teori | har utviklet ferdigheter til å anvende veiledning, og kan synliggjøre veilederkompetansen i egen arbeidssituasjon"
+      }
+    }
+  ]
+}

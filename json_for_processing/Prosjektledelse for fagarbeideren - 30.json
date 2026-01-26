@@ -1,0 +1,311 @@
+{
+  "study_programs": [
+    {
+      "id": "Prosjektledelse for fagarbeideren - 30",
+      "title": "Prosjektledelse for fagarbeideren",
+      "description": "Prosjektledelse for fagarbeideren passer for deg som vil ta steget fra fag til ledelse. Du lærer å planlegge, styre og avslutte prosjekter med tydelige mål, god kommunikasjon, kontroll på tid og kostnad – og med vekt på bærekraft og kvalitet.",
+      "study_location": "Kongsberg (Samlingsbasert 1 år) | Fredrikstad (Samlingsbasert 1 år) | Kjeller (Samlingsbasert 1 år) | Mo i Rana (Samlingsbasert 1 år) | Indre Østfold (Samlingsbasert 1 år) | Geilo (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Prosjekter lykkes når håndverket møter god styring. Her utvikler du verktøy og trygghet til å lede team, håndtere risiko og holde fremdrift – samtidig som du leverer på kvalitet og HMS. Utdanningen bygger på din praksis, og gir rask overføring til arbeidshverdagen i ulike bransjer.\nDette studiet er en del av | Industrifagskolen | .",
+      "what_learn": "Du lærer kjernefagene i prosjektledelse: prosjektforståelse, planlegging (mål, økonomi, usikkerhet og team), gjennomføring (informasjon, endringer, rapportering) og avslutning (evaluering, overlevering og kompetansedeling). Arbeidet er praktisk og casebasert med aktiv bruk av egen erfaring. Studiet består av fire emner med vurdering underveis.\nKlikk på et emne for å lese hva du lærer.",
+      "teaching_format": null,
+      "mandatory_attendance": "Undervisning og samlinger | Studiet gjennomføres nettbasert med samlinger. I løpet av hvert semester deltar du på flere dagsamlinger ved studiested, kombinert med ukentlig nettundervisning med forelesninger, veiledning og gruppearbeid. Oppdatert plan med samlingsuker og undervisningstider publiseres på | studentsiden for Kongsberg | før oppstart. | Obligatorisk oppmøte | Enkelte aktiviteter/samlinger kan ha obligatoriske arbeidskrav eller oppmøteplikt. Se emne-/studieplan for detaljer. Ved fravær må du selv ta igjen tapt læring.",
+      "police_certificate": null,
+      "career_opportunities": "Med dokumentert prosjektkompetanse kan du ta rolle som | prosjektleder, assisterende prosjektleder | eller | prosjektmedarbeider | i håndverks- og industribedrifter, bygg- og anlegg, tekniske fag, logistikk og service. Du blir den som setter retning, samordner fag, følger opp fremdrift, økonomi og kvalitet – og gjennomfører prosjekter på en trygg, bærekraftig og effektiv måte.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/bygg-og-anlegg/prosjektledelse-fagarbeideren"
+    }
+  ],
+  "courses": [
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    },
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    },
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    },
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    },
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    },
+    {
+      "id": "01TB64A  EILPLF",
+      "title": "Prosjektforståelse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64A--EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om hva et prosjekt er, og hva som kjennetegner det typiske prosjektet | har kunnskap om prosjektorganisering og prosjektets faser | har kunnskap om ulike roller som er knyttet til et prosjekt | har kunnskap om kommunikasjon i prosjekter | har kunnskap om FNs bærekraftsmål | kjenner til sentrale kvalitetsprinsipper for bærekraftige prosjekter | forstår den samfunnsmessige betydningen og gevinsten av å benytte prosjekt som arbeidsform",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å lede bærekraftige prosjekter gjennom planlegging-, gjennomføring og avslutningsfasen | kan anvende kunnskap om suksessfaktorer og fallgruver fra andre inn i eget prosjekt | kan anvende muntlig og skriftlig kommunikasjon i prosjektgjennomføring, herunder muntlig presentasjon og skriftlig rapport | kan finne og henvise til oppdatert informasjon om krav til bærekraft i prosjekt | kan kartlegge rammevilkår og identifisere faglige problemstillinger og behov også sett i lys av FNs bærekraftsmål før iverksetting av tiltak i prosjekter",
+        "competence": "Generell kompetanse | Studenten | har forståelse for prinsipper for planlegging, gjennomføring og evaluering av bærekraftige prosjekter | har forståelse for hvordan et prosjekt er organisert | har forståelse for hvordan prosjektarbeidsformen kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap"
+      }
+    },
+    {
+      "id": "01TB64B EILPLF",
+      "title": "Prosjektplanlegging",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64B-EILPLF/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om bærekraftige prosjektmål | har kunnskap om prosjektøkonomi, herunder kunnskap om lineær og sirkulær økonomi | har kunnskap om håndtering av usikkerhet i prosjekter | har kunnskap om hvordan ulike valg av løsninger kan gi en økonomisk gevinst | har innsikt i lover og standarder relevante for planleggingsfasen | har innsikt i kontrakter og avtaler relevante for planleggingsfasen | har innsikt i kvalitetsprinsipper i prosjektarbeid",
+        "skills": "Ferdigheter | Studenten | kan anvende forhåndsdefinerte prosjektmål | kan anvende kunnskap om å sikre bærekraft i prosjekter | kan anvende relevante planleggings (og analyse) verktøy som gir grunnlag for beslutninger i prosjektplanleggingen, inkludert risikomatriser. | kan finne informasjon og fagstoff som er relevant i prosjektgjennomføring | kan kartlegge og identifisere problemstillinger og behov for iverksetting av relevante bærekraftige tiltak i prosjekter, og forstå hvordan prosjektøkonomien påvirkes av tiltakene",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper ved planlegging | har forståelse for hvordan planleggingen av et bærekraftig prosjekt kan bidra til oppfyllelse av FNs bærekraftmål | har utviklet en etisk grunnholdning til utøvelsen av lederskap, som gjenspeiles i planleggingsfasen | kan utføre arbeidet med å planlegge prosjekt | kan utvikle planer for fremdrift, utførelse, kontroll og rapportering i et bærekraftig prosjekt"
+      }
+    },
+    {
+      "id": "01TB64C EILPLF",
+      "title": "Prosjektgjennomføring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64C-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om relevant bærekraftig prosjektledelse | har kunnskap om ledelse og utvikling av team. | har kunnskap om god kommunikasjon, herunder informasjonsflyt og rapportering | har kunnskap om fremdriftsstyring og relevante styringsverktøy for prosjekter | har kunnskap om avviks- og endringsbehandling i prosjekter | har innsikt i avtaler og krav til kvalitet",
+        "skills": "Ferdigheter | Studenten | kan anvende prosjektledelse for bærekraftige prosjekter | kan anvende styringsverktøy og teknikker for fremdriftsplanlegging | kan anvende relevante verktøy for informasjonsflyt i prosjekter | kan anvende ulike lederstiler, inkludert kjenne til sentrale aspekter ved å bygge gode team | kan finne informasjon og fagstoff som er relevant for prosjektgjennomføring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for etiske prinsipper for gjennomføring et bærekraftig prosjekt | har forståelse for hvordan ledelse av prosjekter kan bidra til oppfyllelse av FNs bærekraftsmål | har utviklet en etisk grunnholdning til utøvelsen av prosjektlederskap | kan utføre arbeidet med å lede gjennomføringen av et prosjekt | kan bygge relasjoner med interessenter til prosjektet"
+      }
+    },
+    {
+      "id": "01TB64D EILPLF",
+      "title": "Prosjektavslutning",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TB64D-EILPLF/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om prosjektavslutning | har innsikt i gjeldende regelverk og avtaler som må oppfylles ved gjennomføring og avslutning av prosjekt | kan oppdatere og utvikle prosjektkunnskap gjennom evaluering og kompetanseoverføring",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap til å avslutte og overføre et prosjekt i henhold til gitt prosjektmål | kan anvende kunnskap om suksessfaktorer og fallgruver fra eget prosjekt og overføre kunnskapen til egen organisasjon | kan finne informasjon og fagstoff som er relevant for en bærekraftig prosjektavslutning | kan kartlegge og identifisere gjenstående arbeid og behov for iverksetting av tiltak | kan kartlegge og identifisere suksessfaktorer og forbedringspotensial i et bærekraftig prosjekt",
+        "competence": "Generell kompetanse | Studenten | har forståelse for at avslutning, overføring og evaluering i henhold til gitte prosjektmål er viktig for en vellykket prosjektgjennomføring | har forståelse for hvordan prosjektavslutning og sluttdokumentasjon kan bidra til oppfyllelse av FNs bærekraftsmål | kan utføre arbeidet med å planlegge og gjennomføre avslutning av et prosjekt. | kan utvikle sluttdokumentasjon og planer for avslutning av et prosjekt."
+      }
+    }
+  ]
+}

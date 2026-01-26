@@ -1,0 +1,107 @@
+{
+  "study_programs": [
+    {
+      "id": "Dataanalytiker - 60",
+      "title": "Dataanalytiker",
+      "description": "Dataanalytiker er studiet for deg som vil gjøre data om til gode beslutninger. Du utvikler praktiske ferdigheter i innsamling, analyse og visualisering av data – og lærer å bygge enkle prognoser som støtter forbedringer i virksomheten.",
+      "study_location": "Kongsberg (Samlingsbasert 2 år)",
+      "credits": 60,
+      "language": "Norsk",
+      "level": "Fagskolegrad",
+      "why_choose": "Data og teknologi påvirker alle deler av samfunnet, og behovet for fagpersoner som kan forstå og bruke data til å ta gode beslutninger, øker raskt. Utdanningen Dataanalytiker er utviklet i samarbeid med næringslivet for å møte dette behovet.\nGjennom studiet lærer du hvordan tall, sensordata og digitale spor kan bli til konkret innsikt som forbedrer prosesser, tjenester og produkter. Du får praktisk trening i å bruke verktøy og metoder som brukes i arbeidslivet, og lærer å formidle funn på en måte som gir verdi for kollegaer og beslutningstakere.\nSom student opplever du hvordan dataanalyse ikke bare handler om teknologi, men om mennesker, nysgjerrighet og problemløsning. Du utvikler en kompetanse som gjør deg trygg i rollen som bindeledd mellom teknologer og beslutningstakere – og blir en viktig ressurs i virksomheter som vil bruke data smartere.",
+      "what_learn": "I dette studiet lærer du å gjøre data om til innsikt som kan brukes til å ta gode beslutninger. Du får kunnskap om hvordan data samles inn, bearbeides, analyseres og visualiseres, og hvordan resultatene kan formidles slik at de får praktisk verdi i virksomheten.\nGjennom hele studiet trener du på å bruke verktøy og metoder fra arbeidslivet. Du lærer grunnleggende programmering, datakvalitet og -forberedelse, analyse, visualisering og prediksjon – og ser hvordan kunstig intelligens og datadrevet beslutningsstøtte brukes i praksis.\nLæringen skjer i et miljø som kombinerer teori, oppgaveløsning og virkelige case fra næringslivet. Du jobber både individuelt og i grupper og får veiledning underveis i prosjektene.\nKlikk på hvert emne for å lese mer om hva du lærer.",
+      "teaching_format": "Nettbasert deltid med fysiske samlinger",
+      "mandatory_attendance": "Undervisning og samlinger | Studiet gjennomføres som nettbasert deltidsstudium med fysiske samlinger ved studiested Kongsberg. Samlingene holdes vanligvis to ganger per semester og varer flere dager. Mellom samlingene har du fast nettundervisning på kveldstid, kombinert med veiledning, oppgaver og prosjektarbeid. | Undervisningen kombinerer teori, praktiske oppgaver og samarbeid med medstudenter. Du får tett faglig oppfølging fra lærere og bruker digitale verktøy for kommunikasjon og samarbeid. | Tidspunkter for samlingsuker og undervisning publiseres på | studentsiden for Kongsberg | før oppstart. Oppdatert informasjon for pågående kull finnes alltid på studentsiden eller i læringsplattformen. | Obligatorisk oppmøte | Det er ikke krav om obligatorisk oppmøte i dette studiet, men enkelte arbeidskrav i emnene kan være obligatoriske. Se emnebeskrivelsene i studieplanen for detaljer.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i å forstå, strukturere og analysere data på en faglig og etisk bevisst måte. Du lærer å omsette tall og informasjon til innsikt som støtter beslutninger, effektiviserer prosesser og skaper nye løsninger. | Utdanningen styrker handlingskompetansen din slik at du kan bidra på et høyere faglig nivå i arbeidet – enten du jobber med produksjon, teknologi, administrasjon eller utvikling. Du blir tryggere i rollen som bindeledd mellom fag, drift og ledelse, og får kompetanse til å drive forbedringsarbeid og innovasjon i virksomheten. | Kompetansen er særlig relevant for arbeid i | teknologiselskaper, industri, offentlig forvaltning og tjenesteytende virksomheter | der data brukes til planlegging, kvalitet og utvikling.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/it-og-data/dataanalytiker"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EITDDAK 01TD55A",
+      "title": "Innføring i dataanalyse og datadrevet beslutningstaking",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55A/2025-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om begreper, prosesser, verktøy og metoder for dataanalyse | Kan vurdere sine yrkesfaglige kunnskaper om dataanalyse | Kjenner til bransjens betydning av dataanalyse i et samfunns- og verdiskapingsperspektiv",
+        "skills": "Ferdigheter | Studenten | Kan anvende ulike verktøy og teknikker for å analysere data og trekke meningsfulle konklusjoner | Kan kartlegge og finne løsninger knyttet til datakvalitet og dataintegritet | Kan gjøre rede for sine valg av verktøy for presentasjon av dataanalysefunn på en forståelig måte til ulike målgrupper",
+        "competence": "Generell kompetanse | Studenten | Har innsikt i etiske problemstillinger knyttet til dataanalyse og datadrevet beslutningstaking | Kan reflektere over egen faglig utøvelse og justere denne under veiledning | Kan bidra til nytenkning og innovasjonsprosesser ved bruk av dataanalyse"
+      }
+    },
+    {
+      "id": "EITDDAK 01TD55B",
+      "title": "Programmering",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55B/2025-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om grunnleggende programmering | Har kunnskap om variabler, datatyper og operatorer | Har kunnskap om funksjoner og moduler | Har kunnskap om kontrollstrukturer og loops | Har kunnskap om objektorientert programmering (OOP) | Har kunnskap om ulike APIer | Kan oppdatere sin yrkesfaglige kunnskap",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap om grunnleggende programmering | kan anvende faglig kunnskap om variabler, datatyper og operatorer | kan anvende faglig kunnskap om funksjoner og moduler | kan anvende faglig kunnskap om Kontrollstrukturer og loops | kan anvende faglig kunnskap om objektorientert programmering (OOP) | kan anvende faglig kunnskap om ulike APIer | kan finne informasjon og fagstoff som er relevant for programmering",
+        "competence": "Generell kompetanse | Studenten | kan utvikle arbeidsmetoder og tjenester innenfor programmering | har forståelse bransjeetiske prinsipper innenfor KI og programmering | kan utføre et arbeid innenfor KI og programmering"
+      }
+    },
+    {
+      "id": "EITDDAK 01TD55C",
+      "title": "Datakilder, innsamling og forberedelse",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55C/2026-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om ulike typer databaser og deres anvendelser | Forstår prinsippene for bruk av skytjenester i datahåndtering og -lagring | Har kunnskap om API'er og hvordan de kan brukes til datainnhenting | Kan finne relevant informasjon og fagstoff om ulike dataformater og deres egenskaper | Kan kartlegge en situasjon og identifisere faglige problemstillinger for prosesser og teknikker for dataforberedelse, inkludert rensing, utvinning, anrikning og filtrering | Har kunnskap om konvertering mellom forskjellige datatyper og formater",
+        "skills": "Ferdigheter | Studenten | Kan gjøre rede for sine faglige valg for skytjenester for effektiv datalagring og behandling | Kan gjøre rede for sine valg av API'er til å hente inn data fra eksterne kilder | Kan utføre arbeid for å innhente data fra ulike formater som CSV, JSON, XML, og SQL | Kan gjøre rede for sine valg for å utføre dataforberedelse inkludert rensing, utvinning, anrikning og filtrering av data | Kan utføre arbeid med å konvertere data mellom forskjellige formater og datatyper | Kan utføre arbeid med enkle scripts for automatisering av datainnhenting og -forberedelse",
+        "competence": "Generell kompetanse | Studenten | Har utviklet en etisk grunnholdning for juridiske problemstillinger knyttet til datainnhenting og -bruk | Har forståelse for egen faglig utøvelse og kan justere denne under veiledning | Kan bygge relasjoner og samarbeide effektivt i tverrfaglige team for å løse datarelaterte utfordringer | Kan utvikle arbeidsmetoder til innovasjon og forbedring av datainnhentingsprosesser i en organisasjon | Har forståelse for viktigheten av kontinuerlig læring og utvikling innen datahåndtering og -innhenting"
+      }
+    },
+    {
+      "id": "EITDDAK 01TD55D",
+      "title": "Grunnleggende dataanalyse",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55D/2026-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om begreper og teknikker innen dataanalyse | Har kunnskap om prinsippene for utforskende dataanalyse (EDA) | Har kunnskap om statistiske målinger og hvordan de brukes til å analysere data | Har kunnskap om datavisualisering og dens betydning i dataanalyse | Kan oppdatere sin yrkesfaglige kunnskap om en situasjon og identifisere faglige problemstillinger for dataanalyseprosesser | Har kunnskap om verktøy og metoder for datavisualisering og tolkning",
+        "skills": "Ferdigheter | Studenten | Kan anvende grunnleggende teknikker for utforskende dataanalyse | Kan anvende relevante faglige verktøy for enkle statistiske målinger som gjennomsnitt, median, varians og standardavvik | Kan finne informasjon for å analysere og identifisere trender og ekstremalpunkter i datasett | Kan anvende faglig kunnskap for å bruke visualiseringsverktøy for å presentere data effektivt | Kan anvende faglig kunnskap om data og trekke meningsfulle konklusjoner basert på analysen | Kan anvende faglig kunnskap om dataforberedelse og rensing for å sikre nøyaktige analyser | Kan anvende faglig kunnskap om scripts og verktøy for å automatisere deler av dataanalyseprosessen",
+        "competence": "Generell kompetanse | Studenten | Har utviklet en etisk grunnholdning for juridiske problemstillinger knyttet til dataanalyse og -bruk | Har forståelse for egen faglig utøvelse og kan justere denne under veiledning | Kan bygge relasjoner og samarbeide effektivt i tverrfaglige team for å løse datarelaterte utfordringer | Kan utvikle arbeidsmetoder for innovasjon og forbedring av dataanalyseprosesser i en organisasjon | Har forståelse for viktigheten av kontinuerlig læring og utvikling innen dataanalyse"
+      }
+    },
+    {
+      "id": "EITDDAK 01TD55E",
+      "title": "Analyser og visualisering",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55E/2026-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om metoder for å identifisere og håndtere anomalier og ekstremverdier i datasett | Har kunnskap om klynging og segmentering som teknikker i dataanalyse | Har kunnskap om sentrale algoritmer og deres anvendelser | Har kunnskap om prinsippene for validering av analyseresultater | Har kunnskap om avanserte teknikker for datavisualisering og deres betydning i dataanalyse | Kan oppdatere sin yrkesfaglige kunnskap om analysemetoder og identifisere faglige problemstillinger knyttet til analyseprosesser",
+        "skills": "Ferdigheter | Studenten | Kan anvende metoder for å identifisere og håndtere anomalier og ekstremverdier i datasett | Kan anvende relevante verktøy for klynging og segmentering i dataanalyse | Kan anvende K-means og nærmeste nabo-algoritmer for å analysere og segmentere data | Kan utføre validering av analyseresultater ved hjelp av faglig kunnskap og relevante verktøy | Kan anvende avanserte visualiseringsverktøy for å presentere komplekse data og analyseresultater effektivt | Kan finne informasjon for å analysere data og trekke meningsfulle konklusjoner",
+        "competence": "Generell kompetanse | Studenten | Har utviklet en etisk grunnholdning for juridiske problemstillinger knyttet til dataanalyse og -bruk | Har forståelse for egen faglig utøvelse og kan justere denne under veiledning | Kan bygge relasjoner og samarbeide effektivt i tverrfaglige team for å løse datarelaterte utfordringer | Kan utvikle arbeidsmetoder for innovasjon og forbedring av analyse- og visualiseringsprosesser i en organisasjon"
+      }
+    },
+    {
+      "id": "EITDDAK 01TD55F",
+      "title": "Prediksjon og prognoser",
+      "credits": 5,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDDAK-01TD55F/2026-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om kunstig intelligens (KI) modeller og deres anvendelser i prediksjon og prognoser | Har kunnskap om prinsippene for prognoser og hvordan historiske data kan brukes til å forutsi fremtidige trender | Kan oppdatere sin yrkesfaglige kunnskap om de nyeste metodene og teknikkene innen KI-modeller og prediksjon | Har kunnskap om verktøy og metoder for å implementere og evaluere prediksjonsmodeller",
+        "skills": "Ferdigheter | Studenten | Kan anvende KI-modeller for å utføre prediksjoner basert på historiske data | Kan bruke relevante verktøy for å utføre prognoser og prediksjoner | Kan kartlegge en situasjon om historiske data for å identifisere mønstre og trender som kan brukes i prediksjonsmodeller | Kan kartlegge en situasjon for å evaluere prediksjonsmodeller ved bruk av passende metoder og teknikker | Kan anvende faglig kunnskap for å forbedre nøyaktigheten og påliteligheten til prediksjonsmodeller",
+        "competence": "Generell kompetanse | Studenten | Har utviklet en etisk grunnholdning for juridiske problemstillinger knyttet til bruk av KI-modeller og prediksjon | Har forståelse for egen faglig utøvelse og kan justere denne under veiledning | Kan bygge relasjoner og samarbeide effektivt i tverrfaglige team for å løse komplekse datarelaterte utfordringer | Kan utvikle arbeidsmetoder for innovasjon og forbedring av prediksjonsprosesser i en organisasjon | Har forståelse for viktigheten av kontinuerlig læring og utvikling innen KI og prediksjonsmodeller"
+      }
+    },
+    {
+      "id": "01TX00H",
+      "title": "Hovedprosjekt",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TX00H/2027-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Kandidaten: | har kunnskap om hvordan man skriver en prosjektrapport | har særskilte kunnskaper om et selvvalgt tema med en problemstilling innenfor fordypningen | har kunnskap om hvordan man innhenter informasjon om tema for et hovedprosjekt | har kunnskap om sammenhengen mellom teori og praksis | kan vurdere eget prosjekt i forhold til gjeldende normer og krav | kjenner til bransjen/yrker som er knyttet til tema i hovedprosjektet",
+        "skills": "Ferdigheter | Kandidaten: | kan gjøre rede for valg av tema for hovedprosjekt | kan identifisere, kartlegge og vurdere en faglig problemstilling | kan delta i teamarbeid, planlegge, kommunisere og presentere prosjektarbeid og resultat | kan skrive en prosjektrapport | kan drøfte sammenhengen mellom teori og praksis | kan reflektere over eget prosjekt og justere dette under veiledning av fagfolk | kan finne og henvise til informasjon og fagstoff for å vurdere relevansen til en problemstilling i et prosjekt",
+        "competence": "Generell kompetanse | Kandidaten: | kan planlegge og gjennomføre et prosjektarbeid alene og som deltaker i gruppe i tråd med formelle og etiske krav og retningslinjer | har utviklet en bevissthet rundt prosjektarbeid og kan fordype seg i tema som danner grunnlag for prosjektet, samt tenke kreativt og nyskapende | kan utføre et prosjektarbeid i tråd med bedrifters eller arbeidsgivers behov | kan utveksle synspunkter med andre i team eller bedrift og delta i diskusjoner om utvikling av et prosjekt"
+      }
+    }
+  ]
+}

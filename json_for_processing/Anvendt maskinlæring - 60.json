@@ -1,0 +1,95 @@
+{
+  "study_programs": [
+    {
+      "id": "Anvendt maskinlæring - 60",
+      "title": "Anvendt maskinlæring",
+      "description": "Anvendt maskinlæring er videreutdanningen for deg som vil bruke data til å løse reelle problemer i arbeidslivet. Du jobber praktisk med hele løpet fra datainnsamling og datakvalitet til modellutvikling, evaluering og implementering – og bygger kompetanse som gjør deg trygg i møte med virkelige problemstillinger.",
+      "study_location": "Kongsberg (Samlingsbasert 2 år)",
+      "credits": 60,
+      "language": "Norsk",
+      "level": "Fagskolegrad",
+      "why_choose": "Data driver stadig flere beslutninger i Norge – fra industri og energi til helse, offentlig sektor og finans. For å lykkes trenger vi folk som forstår både faglige behov og hva som faktisk må til for å bygge trygge, datadrevne løsninger. Kompetanse i anvendt maskinlæring handler derfor ikke bare om algoritmer, men om å løse reelle problemer på en ansvarlig måte.\nI dette studiet får du trent hele løpet: å avklare problemstilling med fagmiljøer, samle inn og gjøre data klare, utvikle og forbedre modeller – og oversette funn til tiltak som skaper verdi. Du lærer å jobbe tverrfaglig, vurdere kvalitet og risiko og ta etisk bevisste valg når KI tas i bruk i møte med mennesker, tjenester og produkter.\nResultatet er faglig trygghet og praktisk gjennomføringsevne. Du står sterkere i dialogen med kollegaer og ledelse, får et språk for å forklare hva som virker – og hvorfor – og kan bidra til smartere prosesser, bedre beslutninger og mer bærekraftige tjenester der du jobber.",
+      "what_learn": "I dette studiet lærer du hvordan maskinlæring brukes til å løse virkelige utfordringer i arbeidslivet. Du får innsikt i hvordan data samles inn, bearbeides og brukes til å utvikle modeller som kan analysere mønstre, forutsi hendelser og støtte gode beslutninger.\nGjennom arbeidet med prosjekter lærer du å planlegge, programmere og evaluere maskinlæringsmodeller på en praktisk måte. Du blir trygg i bruk av moderne rammeverk, samtidig som du utvikler forståelse for etiske spørsmål, datasikkerhet og hvordan teknologi kan brukes ansvarlig i ulike bransjer.\nStudiet består av seks emner på til sammen 60 studiepoeng. Du søker opptak til hele utdanningen gjennom Samordna opptak. Når du har fullført studiet, får du fagskolegrad i Anvendt maskinlæring. | Klikk på et emne for å lese mer om hva du lærer.",
+      "teaching_format": "Nettbasert deltid med fysiske samlinger",
+      "mandatory_attendance": "Undervisning og samlinger | Studiet gjennomføres som nettbasert deltidsstudium med fysiske samlinger ved studiested Kongsberg. Samlingene holdes vanligvis fire ganger per studieår og varer inntil en arbeidsuke. Mellom samlingene deltar du i nettundervisning på kveldstid, med forelesninger, veiledning og praktiske oppgaver. | Undervisningen foregår i læringsplattformen Teams, der du får tilgang til læringsmateriell, oppgaver og fremdriftsplaner. Du får tett faglig oppfølging fra lærere og medstudenter, og arbeidet i grupper gir nyttige erfaringer med samarbeid på tvers av fagfelt. | Oppdatert plan med detaljerte undervisningstider og samlingsuker for hvert emne publiseres på | studentsiden for Kongsberg | før oppstart. | Obligatorisk oppmøte | Noen samlinger kan ha obligatoriske arbeidskrav eller oppmøteplikt. Se emnebeskrivelsene i studieplanen for detaljer. Ved fravær er du selv ansvarlig for å ta igjen tapt læring gjennom selvstudium.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i å forstå, utvikle og anvende maskinlæring i praksis. Du lærer å samle inn, analysere og tolke data, og bruke resultatene til å utvikle modeller som støtter bedre beslutninger og effektiviserer prosesser. | Utdanningen styrker handlingskompetansen din slik at du kan bidra på et høyere faglig nivå i arbeid med digitalisering, automatisering og teknologiutvikling. Du får innsikt i både programmering, dataanalyse og etiske problemstillinger knyttet til kunstig intelligens, og blir en verdifull ressurs i tverrfaglige team. | Kompetansen er særlig relevant for arbeid i | industri, teknologi- og utviklingsbedrifter, energi- og produksjonssektoren, offentlig forvaltning | og | tjenesteutvikling | der data og automatisering spiller en sentral rolle.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/it-og-data/anvendt-maskinlaering"
+    }
+  ],
+  "courses": [
+    {
+      "id": "EITDAMK 01TD56A",
+      "title": "Introduksjon til KI og maskinlæringsmodeller",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDAMK-01TD56A/2025-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om begreper, prosesser og verktøy som anvendes innenfor maskinlæring | har bransjekunnskap og kjennskap til bruksområder for maskinlæring | har kunnskap om grunnleggende matematiske konsepter for bruk i maskinlæring",
+        "skills": "Ferdigheter | Studenten | kan finne relevante bruksområder for bruk av maskinlæring | kan gjøre rede for sine valg av maskinlæringstyper for ulike problemstillinger | kan anvende faglig kunnskap om grunnleggende matatematiske konsepter innenfor maskinlæring | kan anvende relevante faglige verktøy innenfor maskinlæring",
+        "competence": "Generell kompetanse | Studenten | har forståelse for yrkes- og bransjeetiske prinsipper innenfor KI | har utviklet en etisk grunnholdning i bruk av KI | kan bygge relasjoner med fagfeller og på tvers av fag, samt med eksterne målgrupper"
+      }
+    },
+    {
+      "id": "EITDAMK 01TD56B",
+      "title": "KI utvikling prosess og rammeverk",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDAMK-01TD56B/2026-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om maskinlærings modeller og rammeverk | Har kunnskap om prosessen fra problemdefinisjon til implementering | Har kunnskap om verktøy og algoritmer for utvikling av modeller",
+        "skills": "Ferdigheter | Studenten | Kan anvende faglig kunnskap for å identifisere nødvendige steg i prosessen for å sikre riktig valg av metode og modell | Kan planlegge og definere behov for et maskinlæringsprosjekt | Kan velge modeller og algoritmer for å passe til spesifikke problemstillinger",
+        "competence": "Generell kompetanse | Studenten | Har forståelse for KI-utviklingsprosessen og hvordan de ulike fasene henger sammen | Kan vurdere valg av modeller og algoritmer for å sikre beste praksis | Har evne til å tilpasse KI-rammeverk til ulike prosjekter og behov"
+      }
+    },
+    {
+      "id": "EITDAMK 01TD56C",
+      "title": "Programmering",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDAMK-01TD56C/2025-host",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om grunnleggende programmering | Har kunnskap om variabler, datatyper og operatorer | Har kunnskap om funksjoner og moduler | Har kunnskap om kontrollstrukturer og loops | Har kunnskap om objektorientert programmering (OOP) | Har kunnskap om ulike AP’Ier",
+        "skills": "Ferdigheter | Studenten | kan anvende faglig kunnskap om grunnleggende programmering | kan anvende faglig kunnskap om variabler, datatyper og operatorer | kan anvende faglig kunnskap om funksjoner og moduler | kan anvende faglig kunnskap om kontrollstrukturer og løkker | kan anvende faglig kunnskap om objektorientert programmering (OOP) | kan anvende faglig kunnskap om ulike APIer",
+        "competence": "Generell kompetanse | Studenten | kan planlegge, prosjektere, dokumentere, iverksette og drifte applikasjoner | kan utveksle bransjerelaterte synspunkter og informasjon | kan bygge relasjoner, både internt, eksternt og på tvers av fagfelt | kan vedlikeholde og utvikle sin egen kompetanse innenfor emnet"
+      }
+    },
+    {
+      "id": "EITDAMK 01TD56D",
+      "title": "Programmering for maskinlæring",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDAMK-01TD56D/2026-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om ulike rammeverk og biblioteker for maskinlæring | Har kunnskap om Implementering av applikasjoner | Har kunnskap om metoder for innhenting og bearbeiding av data | Har kunnskap om planlegging og dokumentering av maskinlæringsprosjekter",
+        "skills": "Ferdigheter | Studenten | Kan anvende faglig kunnskap for rammeverk og biblioteker for å utvikle maskinlæringsapplikasjoner | Kan gjøre rede for sine valg for å samle inn, rense og behandle data for maskinlæring | Kan anvende faglig kunnskap om implementering av maskinlæringsmodeller i programmeringsprosjekter | Kan anvende faglig kunnskap for å planlegge og dokumentere programmeringsprosjekter innen maskinlæring",
+        "competence": "Generell kompetanse | Studenten | Har evne til å tilpasse programmeringsferdigheter til ulike maskinlæringsprosjekter | Kan oppdatere sin faglige kunnskap og følge med på teknologiske trender | Har forståelse for etiske aspekter ved programmering og maskinlæring | kan utveksle synspunkter med andre med bakgrunn innen bransjen og delta i diskusjoner om utvikling av god praksis"
+      }
+    },
+    {
+      "id": "EITDAMK 01TD56E",
+      "title": "Datainnsamling og prosessering",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/EITDAMK-01TD56E/2026-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om behovet for data i maskinlæringsprosjekter | Kjenner til ulike typer data og deres betydning i maskinlæring | Har innsikt i metoder og kilder for innsamling av relevant data | Har innsikt i teknikker for datarensing og forbehandling for maskinlæring | Har kunnskap om etiske og juridiske aspekter ved datainnsamling og prosessering",
+        "skills": "Ferdigheter | Studenten | Kan identifisere hvilket data som trengs for spesifikke maskinlæringsprosjekter | Kan gjøre rede for sine faglige valg for å samle inn relevant data fra ulike kilder til bruk i maskinlæring. | Kan gjøre rede for sine faglige valg for å rense, forbehandle og klargjøre data for maskinlæringsmodeller. | Kan reflektere over kvaliteten og relevansen av innsamlet data. | Kan anvende verktøy for datavisualisering for å presentere og tolke data.",
+        "competence": "Generell kompetanse | Studenten | Har forståelse for viktigheten av korrekt data i maskinlæring og kan planlegge datainnsamling deretter. | Kan vurdere etiske og juridiske hensyn ved håndtering av data i maskinlæringsprosjekter. | Kan samarbeide med andre for å sikre at data oppfyller kravene til maskinlæringsmodeller."
+      }
+    },
+    {
+      "id": "01TX00H",
+      "title": "Hovedprosjekt",
+      "credits": 10,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/01TX00H/2027-var",
+      "study_level": "Fagskole nivå 5.2",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Kandidaten: | har kunnskap om hvordan man skriver en prosjektrapport | har særskilte kunnskaper om et selvvalgt tema med en problemstilling innenfor fordypningen | har kunnskap om hvordan man innhenter informasjon om tema for et hovedprosjekt | har kunnskap om sammenhengen mellom teori og praksis | kan vurdere eget prosjekt i forhold til gjeldende normer og krav | kjenner til bransjen/yrker som er knyttet til tema i hovedprosjektet",
+        "skills": "Ferdigheter | Kandidaten: | kan gjøre rede for valg av tema for hovedprosjekt | kan identifisere, kartlegge og vurdere en faglig problemstilling | kan delta i teamarbeid, planlegge, kommunisere og presentere prosjektarbeid og resultat | kan skrive en prosjektrapport | kan drøfte sammenhengen mellom teori og praksis | kan reflektere over eget prosjekt og justere dette under veiledning av fagfolk | kan finne og henvise til informasjon og fagstoff for å vurdere relevansen til en problemstilling i et prosjekt",
+        "competence": "Generell kompetanse | Kandidaten: | kan planlegge og gjennomføre et prosjektarbeid alene og som deltaker i gruppe i tråd med formelle og etiske krav og retningslinjer | har utviklet en bevissthet rundt prosjektarbeid og kan fordype seg i tema som danner grunnlag for prosjektet, samt tenke kreativt og nyskapende | kan utføre et prosjektarbeid i tråd med bedrifters eller arbeidsgivers behov | kan utveksle synspunkter med andre i team eller bedrift og delta i diskusjoner om utvikling av et prosjekt"
+      }
+    }
+  ]
+}

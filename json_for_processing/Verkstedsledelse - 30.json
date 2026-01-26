@@ -1,0 +1,71 @@
+{
+  "study_programs": [
+    {
+      "id": "Verkstedsledelse - 30",
+      "title": "Verkstedsledelse",
+      "description": "Verkstedsledelse er fagskoleutdanningen for deg som ønsker trygghet og faglig tyngde i lederrollen. Du lærer å kombinere teknisk innsikt med økonomi, personalledelse og kundebehandling – og skape et verksted som drives effektivt, lønnsomt og med høy kvalitet.",
+      "study_location": "Kjeller (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Bilbransjen står midt i store endringer med elektrifisering, digitalisering og økte krav til lønnsomhet, kvalitet og miljøansvar. Dette stiller nye krav til fagfolk som kan lede verksteddriften med både økonomisk forståelse og menneskelig innsikt.\nMed videreutdanning i verkstedsledelse får du kompetansen som gjør deg trygg i rollen som leder. Du lærer å styre ressursene effektivt, utvikle medarbeidere og skape struktur som gir bedre økonomiske resultater og fornøyde kunder.\nStudiet gir deg innsikt i hvordan du kan bidra til et mer bærekraftig og profesjonelt ettermarked – der sikkerhet, kvalitet og trivsel går hånd i hånd med lønnsomhet. For deg som ønsker å ta neste steg i karrieren, gir dette studiet en unik mulighet til å kombinere fagkunnskap med praktisk ledelse.",
+      "what_learn": "I studiet Verkstedsledelse lærer du å drive og utvikle et moderne verksted med fokus på kvalitet, økonomi og ledelse. Du får kunnskap om hvordan du planlegger og styrer ressursene effektivt, følger opp økonomiske resultater og skaper gode kundeopplevelser.\nUndervisningen kombinerer teori og erfaringsbasert læring. Du bruker egne erfaringer fra bilbransjen aktivt i oppgaver, refleksjon og samarbeid, slik at du kan omsette teori direkte til praksis i egen arbeidshverdag.\nGjennom studiet får du innsikt i temaer som verkstedsdrift, bedriftsøkonomi, logistikk, markedsføring, lønnssystemer, HMS og relasjonsledelse. Du lærer å bygge team, forstå nøkkeltall og bruke digitale verktøy som støtte i ledelsesarbeidet.\nStudiet består av fire emner og gir totalt 30 studiepoeng. Du søker opptak til hele utdanningen gjennom Samordna opptak.\nKlikk på et emne for å lese mer om hva du lærer.",
+      "teaching_format": null,
+      "mandatory_attendance": "Undervisning og samlinger | Studiet kombinerer nettundervisning med fysiske samlinger ved studiested Kjeller. Samlingene holdes vanligvis to til tre ganger per semester og varer to til tre dager. Mellom samlingene følger du nettundervisning én fast kveld i uken. | Undervisningen legger vekt på erfaringsdeling, samarbeid og praktiske oppgaver som knytter teori til arbeidshverdagen din. Oppdatert plan med undervisningstider og samlingsuker finner du på | studentsiden for Kjeller | før studiestart. | Obligatorisk oppmøte | Studiet krever minimum | 75 % tilstedeværelse | på de fysiske samlingene. Praksis har egne regler for obligatorisk oppmøte – se studieplanen for detaljer.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i å lede, planlegge og utvikle verkstedsdrift på en faglig og etisk bevisst måte. Du lærer å kombinere teknisk forståelse med ledelse, økonomi og kundeoppfølging for å skape lønnsomme og bærekraftige resultater. | Utdanningen styrker handlingskompetansen din slik at du kan ta større ansvar for planlegging, ressursstyring, veiledning av medarbeidere og kvalitet i verkstedets daglige drift. Kompetansen er særlig relevant for arbeid i | bilverksteder, service- og ettermarkedsavdelinger, logistikk- og delelager | samt tekniske | lederfunksjoner | i verksted- og transportbransjen. | Du får en bred og praksisnær kompetanse som gjør deg til en nøkkelperson i virksomheter der fagkunnskap, ledelse og kvalitet møtes.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/ledelse/verkstedsledelse"
+    }
+  ],
+  "courses": [
+    {
+      "id": "10AL02L EITLVLRH25",
+      "title": "Kommunikasjon",
+      "credits": 2,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/10AL02L-EITLVLRH25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om grunnleggende IKT | har kunnskap om funksjonalitetene i Office 365, Teams og OneNote | har innsikt i datasikkerhet og sikkerhetstrusler knyttet til bruk av IKT | har forståelse for behandling av personvernsinformasjon | kan oppdatere sin yrkesfaglige kompetanse innen IKT",
+        "skills": "Ferdigheter | Studenten | kan anvende regneark og digitalt presentasjonsverktøy til presentasjoner av planer, informasjon og ideer | kan sette opp formler som er nyttbare for beregning av økonomiske konsekvensanalyser | kan lage modeller med relevans for verkstedsdriften og lønnssystemer | kan lage og benytte regneark for beregning av verkstedenes timeselvkost, evaluering av lønnssystemer, og budsjetter | kan fremstille nøkkeltall grafisk",
+        "competence": "Generell kompetanse | Studenten | kan bruke digitale samhandlingsplattformer med ansatte, bransjen og kunder | har forståelse for bruk av dataverktøy i kommunikasjon med ansatte, bransjen, og kunder | har utviklet en etisk grunnholdning i arbeidet med innhenting av informasjon | har utviklet en forståelse for sikkerhetsrisiko ved bruk av data"
+      }
+    },
+    {
+      "id": "10AL02O EITLVLRH25",
+      "title": "Verkstedsdrift/-ledelse",
+      "credits": 19,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/10AL02O-EITLVLRH25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om viktige økonomiske begreper knyttet til bransjen | har innsikt i ulike selskapsformer, etablering og avvikling | har forståelse for regnskap og tilhørende lovverk | har kunnskaper om bruk av dataverktøy i arbeidet med økonomistyring | har kunnskap om verkstedsdrift, verkstedsledelse og organisasjonsutvikling",
+        "skills": "Ferdigheter | Studenten | kan sette opp balansen for en bedrift og beregne driftsresultat | kan kartlegge ulike kostnader | kan utføre budsjettkontroll og avviksanalyse | kan modellere og beregne timeselvkostnad for et verksted | kan gjennomføre mål og utviklingssamtaler til utvikling for ansatte og bedriften",
+        "competence": "Generell kompetanse | Studenten | har utviklet generell forståelse om økonomiske sammenhenger | har forståelse for hvordan man håndterer lederrollen | kan bygge relasjoner med ansatte og samarbeide for en positiv utvikling av bedriften | har utviklet en forståelse for konflikthåndtering"
+      }
+    },
+    {
+      "id": "10AL02M EITLVLRH25",
+      "title": "Markedsarbeid, lønn og logistikk",
+      "credits": 8,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/10AL02M-EITLVLRH25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | Har kunnskap om ulike lønnssystemer | Han innsikt i ulike incentivsystemer | Har innsikt i logistiske problemstillinger | Har innsikt i ulike former for markedsføringskanaler | Har kunnskap om kunderelasjoner og salg",
+        "skills": "Ferdigheter | Studenten | Kan anvende resultatbasert lønnssystem | Kan tilpasse lønnssystemet til de ansatte | Kan utføre logistiske analyser | Kan benytte ulike markedsføringskanaler mot kunder og andre samarbeidspartnere",
+        "competence": "Generell kompetanse | Studenten | Har forståelse for hvordan mennesker motiveres. | Har forståelse for økonomiske sammenhenger. | Kan bygge relasjon til kunde med hensikt på salg. | Har utviklet en etisk grunnholdning i arbeidet med markedsføring"
+      }
+    },
+    {
+      "id": "10AL02N EITLVLRH25",
+      "title": "Lovkunnskap og HMS",
+      "credits": 1,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/10AL02N-EITLVLRH25/2026-var",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten | har kunnskap om aktuelle avtaler mellom partene i arbeidslivet | har kunnskap om aktuelle lover for bransjen | ha innsikt i aktuelle lover som regulerer forholdet mellom kunder og virksomheten | har forståelse for systematisk HMS arbeide for å styre virksomheten",
+        "skills": "Ferdigheter | Studenten | kan gjøre rede for og anvende lover som regulerer forholdet mellom ansatte, kunder og bedrift | kan drøfte sentrale begreper i lovverket som regulerer forholdet mellom ansatte, kunder og bedrift | kan gjøre rede for begrepene reklamasjon, garanti, og goodwill | kan anvende ulike kvalitetssystemer | kan anvende nettbasert HMS verktøy | kan gjennomføre systematisk HMS arbeide og iverksette risikoreduserende tiltak",
+        "competence": "Generell kompetanse | Studenten | har forståelse for hvordan lovverk benyttes i bedrifter og samfunnet | har en utviklet en etisk grunnholdning i forhold til systematisk HMS arbeid og lovkunnskap | har forståelse for systematisk HMS arbeide dens innvirkning på arbeidsmiljøet"
+      }
+    }
+  ]
+}

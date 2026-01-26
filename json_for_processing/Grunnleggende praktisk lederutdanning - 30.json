@@ -1,0 +1,47 @@
+{
+  "study_programs": [
+    {
+      "id": "Grunnleggende praktisk lederutdanning - 30",
+      "title": "Grunnleggende praktisk lederutdanning",
+      "description": "Grunnleggende praktisk lederutdanning er for deg som vil ta steget fra fagrolle til trygg lederrolle. Du lærer å lede mennesker og arbeidsflyt, kommunisere tydelig, forstå rammer, regelverk og grunnleggende økonomi – og skape et arbeidsmiljø som leverer kvalitet, trivsel og resultater.",
+      "study_location": "Kongsberg (Samlingsbasert 1 år)",
+      "credits": 30,
+      "language": "Norsk",
+      "level": "Vitnemålsgivende studie",
+      "why_choose": "Arbeidslivet trenger ledere som kombinerer fagkunnskap med god kommunikasjon, struktur og etikk. Mange får lederansvar uten formell opplæring – her får du verktøyene som gjør hverdagen mer forutsigbar og utviklende, både for deg og teamet ditt. Studiet bygger trygghet i rollen, skjerper relasjonskompetansen og gir praktisk forståelse for styring, HMS og de rammene som påvirker arbeidshverdagen. Du blir bedre i stand til å prioritere, følge opp medarbeidere og ta informerte beslutninger som skaper verdi for virksomheten.",
+      "what_learn": "I studiet utvikler du sentrale ferdigheter i praktisk ledelse: å kommunisere tydelig, følge opp medarbeidere og planlegge og gjennomføre arbeid på en trygg og strukturert måte. Du får samtidig innsikt i rammene som påvirker lederrollen, som lover, avtaler, HMS og grunnleggende økonomiforståelse.\nKlikk på et emne for å lese mer om hva du lærer.",
+      "teaching_format": null,
+      "mandatory_attendance": "Undervisning og samlinger | Studiet kombinerer nettundervisning med fysiske samlinger ved studiested Kjeller eller Kongsberg. Samlingene holdes vanligvis flere ganger per semester og varer to til tre dager. Mellom samlingene følger du nettundervisning etter fastsatt timeplan, med forelesninger, veiledning og gruppearbeid. | Undervisningen legger vekt på erfaringsdeling, refleksjon og praktiske oppgaver som knyttes til egen arbeidserfaring. | Oppdatert plan med detaljerte undervisningstider og samlingsuker for alle emner publiseres på | studentsiden før oppstart | . | Oppmøte | Samlingene kan inneholde obligatoriske arbeidskrav som krever oppmøte. Manglende oppmøte til slike aktiviteter kan føre til at du ikke får sluttvurdering eller ikke kan gå opp til eksamen i det aktuelle emnet. Se studieplan og emnebeskrivelser for detaljer.",
+      "police_certificate": null,
+      "career_opportunities": "Denne fagskoleutdanningen gir deg økt kompetanse og trygghet i å planlegge, lede og følge opp arbeid i team på en faglig og etisk bevisst måte. Utdanningen styrker handlingskompetansen din, slik at du kan bidra på et høyere faglig nivå i hverdagen og ta ansvar for veiledning, samarbeid, HMS og kvalitet. Kompetansen er særlig relevant i virksomheter der fag og ledelse møtes, for eksempel produksjon, tekniske tjenester, bygg og anlegg, verksted- og industrimiljøer, logistikk og service, samt i offentlig sektor. Du står sterkere i nåværende rolle og for videre ansvar i drift og personaloppfølging.",
+      "contact_info": "Har du noen spørsmål? | Synes du dette studiet virker spennende, men er usikker på hvordan du kommer i gang? Vi hjelper deg gjerne med å finne den løsningen som passer best for deg. Kontakt oss på e-post: | vikenfs@afk.no",
+      "study_url": "https://fagskolen-viken.no/studier/ledelse/grunnleggende-praktisk-lederutdanning"
+    }
+  ],
+  "courses": [
+    {
+      "id": "25AL09A EILGPK25",
+      "title": "Trygghet i lederrollen",
+      "credits": 15,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/25AL09A-EILGPK25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om relevante ledelsesteorier | Har kunnskap om relevante motivasjonsteorier | Har kunnskap om relevant kommunikasjonsteori | Har kunnskap om utfordringer knyttet til lederrollen | Har kunnskap om lederplattformen som metode | Har kunnskap om skriftlig og muntlig formidling | Har kunnskap om kildekritikk og kildehenvisning | Har kunnskap om kommunikasjon på tvers av kulturer | Har kunnskap om ulike samtaleformer",
+        "skills": "Ferdigheter | Studenten: | Kan anvende teorier om motivasjon for å motivere seg selv og andre | Kan anvende teorier om ledelse i utøvelsen av egen lederrolle | Kan anvende lederplattformen som verktøy | Kan anvende kommunikasjonsteorier i utøvelsen av lederrollen | Kan anvende språket som verktøy for å kommunisere på en forståelig og hensiktsmessig måte, både skriftlig og muntlig | Kan anvende kilder til bruk i skriftlig og muntlig kommunikasjon | Kan anvende relevante kommunikasjonsverktøy",
+        "competence": "Generell kompetanse | Studenten: | Kan bygge relasjoner og kommunisere med andre | Har forståelse av seg selv og hvordan man håndterer lederrollen | Har forståelse og kan anvende ulike metoder og verktøy i lederrollen"
+      }
+    },
+    {
+      "id": "25AL09B EILGPK25",
+      "title": "Leders rammer",
+      "credits": 15,
+      "url": "https://studiekatalog.edutorium.no/viken/nb/emne/25AL09B-EILGPK25/2025-host",
+      "study_level": "Fagskole nivå 5.1",
+      "learning_outcomes": {
+        "knowledge": "Kunnskap | Studenten: | Har kunnskap om grunnleggende organisasjonsteori | Har kunnskap og forståelse om organisasjonskultur, og -struktur | Har kunnskap om de vanligste begreper, metoder og verktøy knyttet til økonomi i organisasjoner | Har innsikt i relevante avtaler, regler og lovverk for arbeidslivet | Har kunnskap om hvordan organisasjoner fungerer og styres | Har kunnskap om hvordan organisasjoner kan utvikles | Har innsikt i kvalitets- og HMS-ledelse",
+        "skills": "Ferdigheter | Studenten: | Kan anvende faglig kunnskap om organisasjonsteori i lederrollen | Kan anvende teori om organisasjonskultur for å synliggjøre og utvikle arbeidsmiljøet | Kan anvende relevant lovverk i utøvelsen av arbeidsgiverrollen | Kan anvende faglig kunnskap og verktøy for ledelse og styring i organisasjonen | Kan anvende faglig kunnskap til ledelse av grupper og team | Kan kartlegge situasjonen i egen organisasjon og sette inn tiltak der det er behov | Kan anvende faglig kunnskap om strategisk planlegging i organisasjonen",
+        "competence": "Generell kompetanse | Studenten: | Har forståelse for dilemmaer knyttet til utøvelse av lederrollen | Har forståelse for organisasjonens rammebetingelser | Kan anvende metoder og verktøy til styring av organisasjonen"
+      }
+    }
+  ]
+}

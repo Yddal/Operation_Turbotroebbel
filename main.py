@@ -1,13 +1,16 @@
+from get_studies import get_urls
+import DataExtractor
+import time
 
 """
 This is main
 """
 
-import DataExtractor
+if __name__ == "__main__":
 
-
-
-url = "https://fagskolen-viken.no/studier/ledelse/administrativ-koordinator"
-#url = "https://fagskolen-viken.no/studier/ledelse/praktisk-lederutdanning"
-#url = "https://fagskolen-viken.no/studier/helse/barsel-og-barnepleie"
-DataExtractor.extract(url)
+    urls = get_urls()
+    for url in urls:
+        DataExtractor.extract(url)
+        # vent litt mellom hver forespørsel
+        time.sleep(0.5)
+    

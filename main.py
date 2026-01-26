@@ -1,7 +1,12 @@
+from get_studies import get_urls
 
 """
 This is main
 """
+if __name__ == "__main__":
 
-print("Not yet implemented")
-# Tests
+    urls = get_urls()
+    for url in urls:
+        print(url)
+
+

@@ -4,7 +4,14 @@
       "id": "Språklig og kulturelt mangfold i oppvekstsektoren - 60",
       "title": "Språklig og kulturelt mangfold i oppvekstsektoren",
       "description": "Med full barnehagedekning går de aller fleste barn under skolealder i barnehage, og antallet minioritetspråkelige barn i barnehage er tredoblet siden 2005. Med dette deltidsstudiet får du kompetanse som er sterkt etterspurt i barnehagene og du blir en verdifull ressurs for barnehagens flerspråkelige barn.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Kjeller (Samlingsbasert 2 år) | Kongsberg (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "2": "Kjeller",
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

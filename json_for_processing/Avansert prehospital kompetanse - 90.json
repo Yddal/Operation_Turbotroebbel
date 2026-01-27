@@ -4,7 +4,12 @@
       "id": "Avansert prehospital kompetanse - 90",
       "title": "Avansert prehospital kompetanse",
       "description": "Videreutdanning for ambulansefagarbeidere som vil ta neste steg i prehospitalt arbeid. Du styrker klinisk vurdering, beslutningstaking og operativ samhandling – fra første møte på skadested til trygg overlevering.",
-      "study_location": "Fredrikstad (Samlingsbasert 3 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "9": "Samlingsbasert 3 år"
+      },
       "credits": 90,
       "language": "Norsk",
       "level": "Fagskolegrad",

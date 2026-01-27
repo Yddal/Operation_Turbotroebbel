@@ -4,7 +4,12 @@
       "id": "Intensivpleie - 60",
       "title": "Intensivpleie",
       "description": "Intensivpleie er videreutdanningen for deg som jobber tett på akutt og kritisk syke pasienter, og ønsker trygghet i krevende situasjoner. Du lærer å bidra i overvåkning, behandling og pleie av pasienter i intensiv- og overvåkingsmiljøer – med fokus på pasientsikkerhet, etikk og samarbeid i tverrfaglige team.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

@@ -4,7 +4,12 @@
       "id": "Anvendt maskinlæring - 60",
       "title": "Anvendt maskinlæring",
       "description": "Anvendt maskinlæring er videreutdanningen for deg som vil bruke data til å løse reelle problemer i arbeidslivet. Du jobber praktisk med hele løpet fra datainnsamling og datakvalitet til modellutvikling, evaluering og implementering – og bygger kompetanse som gjør deg trygg i møte med virkelige problemstillinger.",
-      "study_location": "Kongsberg (Samlingsbasert 2 år)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

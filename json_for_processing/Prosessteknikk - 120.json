@@ -4,7 +4,12 @@
       "id": "Prosessteknikk - 120",
       "title": "Prosessteknikk",
       "description": "Prosessteknikk er for deg som vil ta et steg videre i prosessindustrien. Du bygger trygghet i drift og vedlikehold, lærer å styre kvalitet og HMS, og får verktøyene som trengs for å lede forbedringer i teknisk avanserte anlegg.",
-      "study_location": "Fredrikstad (Samlingsbasert 3 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "9": "Samlingsbasert 3 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

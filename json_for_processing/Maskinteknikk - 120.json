@@ -4,7 +4,15 @@
       "id": "Maskinteknikk - 120",
       "title": "Maskinteknikk",
       "description": "Mennesket har laget maskiner i tusenvis av år, fra de enkleste vann- og vindmøller til våre dagers hi-tech. Nå står vi midt i en utvikling der fossil energi fases ut og prosesser automatiseres. Høyere kompetanse om bygging, drift og vedlikehold av maskiner er viktigere enn noen gang.",
-      "study_location": "Fredrikstad (Heltid 2 år) | Kongsberg (Heltid 2 år) | Kongsberg (Samlingsbasert 4 år) | Fredrikstad (Deltid 3 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "11": "Heltid 2 år",
+        "10": "Samlingsbasert 4 år",
+        "13": "Deltid 3 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

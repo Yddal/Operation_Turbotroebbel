@@ -11,19 +11,38 @@ from bs4 import BeautifulSoup
 from typing import Dict, List, Optional, Any
 from urllib.request import Request, urlopen
 
-"""
 study_locations = {
-    0: "Fredrikstad",
-    1: "Kjeller",
-    2: "Kongsberg"
+    0: "Kongsberg",
+    1: "Fredrikstad",
+    2: "Kjeller",
+    3: "Indre Østfold",
+    4: "Drammen",
+    5: "Jessheim",
+    6: "Gauldal",
+    7: "Mo i Rana",
+    8: "Geilo",
+    9: "Sørumsand"
 }
 study_types = {
-    0: "Samlingsbasert 2 år",
-    1: "placeholder"
+    0: "Samlingsbasert",
+    1: "Samlingsbasert 6 uker",
+    2: "Samlingsbasert ca. 10 uker",
+    3: "Samlingsbasert ca. 12 uker",
+    4: "Samlingsbasert ca. 14 uker",
+    5: "Samlingsbasert ca. 16 uker",
+    6: "Samlingsbasert 7 måneder",
+    7: "Samlingsbasert 1 år",
+    8: "Samlingsbasert 2 år",
+    9: "Samlingsbasert 3 år",
+    10: "Samlingsbasert 4 år",
+    11: "Heltid 2 år",
+    12: "Deltid 2 år",
+    13: "Deltid 3 år",
+    14: "Stedbasert 2 år",
+    15: "Nettstudium 1 år",
+    16: "Enkeltemne ca. 12 uker"
 }
-"""
-study_locations = {}
-study_types = {}
+
 
 class StudyDataExtractor:
     """Extract and structure study program information from HTML."""
@@ -197,9 +216,9 @@ class StudyDataExtractor:
             
             # Study Location:
             location_info = self.soup.select_one('.study-detail--campus__select')
-            study_info['study_location'] = location_info.get_text(separator=" | ",strip=True) if intro_elem else None
+            location_info = location_info.get_text(separator=" | ",strip=True) if intro_elem else None
             
-            study_info['study_location'], study_info['study_type'] = match_location_and_sudyType(study_info['study_location'])
+            study_info['study_location'], study_info['study_type'] = match_location_and_studyType(location_info)
             
             """
             study_info_list = study_info['study_location'].split("|")
@@ -370,7 +389,8 @@ class StudyDataExtractor:
         
         return study_df, courses_df
 
-def match_location_and_sudyType(object):
+def match_location_and_studyType(object):
+    global study_locations, study_types
     object = object.split(sep=" | ") # split ut lokasjonene. Studietype splittes senere.
     study_location = {}
     study_type = {}
@@ -382,24 +402,25 @@ def match_location_and_sudyType(object):
             target = object_splitted[0].strip()
             
             #print(f"Prøver å matche '{study_locations[loc]}' mot '{target}'")
+            if target not in study_locations.values():
+                print(f"lokasjon ikke funnet: '{target}'")
+                break
             if study_locations[loc] == target:
                 #print(f"match found at location ID: {loc}, adding..")
                 study_location[loc] = target
                 #print(f"Lokasjon: {target}, plassert som ID: {loc}")
-            else:
-                print(f"lokasjon ikke funnet: {target}")
         # Match studietype mot ID i databasen.
         for type in study_types:
             target = object_splitted[1].replace(")","").strip()
-            
-            print(f"Prøver å matche '{study_types[type]}' mot '{target}'")
+            if target not in study_types.values():
+                print(f"studietype ikke funnet: '{target}'")
+                break
+            #print(f"Prøver å matche '{study_types[type]}' mot '{target}'")
             if study_types[type] == target:
-                print(f"match found at type ID: {type}, adding..")
+                #print(f"match found at type ID: {type}, adding..")
                 study_type[type] = target
                 #print(f"studietype: {target}, plassert som ID: {type}")
-            else:
-                print(f"studietype ikke funnet: {target}")
-
+            
     return study_location, study_type
 
 def extract(url):
@@ -410,7 +431,7 @@ def extract(url):
         html_content = urlopen(req).read().decode("utf-8", errors="ignore")
         #print("✓ Data fetched successfully from URL\n")
     except Exception as e:
-        #print(f"✗ Error fetching URL: {e}")
+        print(f"✗ Error fetching URL: {e}")
         exit(1)
     
     # Initialize extractor with HTML content

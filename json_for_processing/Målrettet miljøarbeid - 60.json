@@ -4,7 +4,13 @@
       "id": "Målrettet miljøarbeid - 60",
       "title": "Målrettet miljøarbeid",
       "description": "Målrettet miljøarbeid er videreutdanningen for deg som ønsker trygghet og faglig fordypning i arbeidet med mennesker med utviklingshemming eller andre funksjonsvariasjoner. Du lærer å bruke målrettet miljøarbeid, etisk refleksjon og kommunikasjon for å skape gode hverdager preget av mestring, livskvalitet og selvbestemmelse",
-      "study_location": "Kjeller (Samlingsbasert 2 år) | Fredrikstad (Samlingsbasert 2 år)",
+      "study_location": {
+        "2": "Kjeller",
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

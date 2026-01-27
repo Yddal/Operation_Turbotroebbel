@@ -4,7 +4,12 @@
       "id": "Instruksjon og veiledning i bedrift - 5",
       "title": "Instruksjon og veiledning i bedrift",
       "description": "Instruksjon og veiledning i bedrift er studiet for deg som har ansvar for opplæring, innfasing eller faglig oppfølging av andre på jobb – enten det er lærlinger, nyansatte eller kollegaer. Du lærer å planlegge, gjennomføre og evaluere gode læringssituasjoner i bedriften, slik at kunnskap blir delt videre på en strukturert og trygg måte.",
-      "study_location": "Kongsberg (Samlingsbasert 6 uker)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "1": "Samlingsbasert 6 uker"
+      },
       "credits": 5,
       "language": "Norsk",
       "level": "Enkeltemne",

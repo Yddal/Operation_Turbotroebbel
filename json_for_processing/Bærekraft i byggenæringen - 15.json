@@ -4,7 +4,12 @@
       "id": "Bærekraft i byggenæringen - 15",
       "title": "Bærekraft i byggenæringen",
       "description": "Bærekraft i byggenæringen er videreutdanningen for deg som vil bidra til grønn omstilling i bygg- og anleggssektoren. Gjennom korte, fleksible emner lærer du å ta bærekraftige valg i praksis – fra ombruk av materialer til energieffektive bygg og helhetlige energisystemer. Kompetansen gjør deg til en viktig ressurs i arbeidet for smartere og mer miljøvennlige bygg.",
-      "study_location": "Kongsberg (Samlingsbasert)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "0": "Samlingsbasert"
+      },
       "credits": 15,
       "language": "Norsk",
       "level": "Enkeltemne",

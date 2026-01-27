@@ -4,7 +4,15 @@
       "id": "Programvareutvikling - 60",
       "title": "Programvareutvikling",
       "description": "Programvareutvikling er videreutdanningen for deg som vil jobbe med utvikling av apper, nettsider og systemer – eller som ønsker å styrke din tekniske kompetanse i en stadig mer digital arbeidshverdag. Studiet er praktisk rettet og gir deg et solid grunnlag i programmering og systemutvikling, tilpasset deg som har yrkesfaglig bakgrunn og vil bygge videre.",
-      "study_location": "Kjeller (Samlingsbasert 2 år) | Kongsberg (Samlingsbasert 2 år) | Fredrikstad (Deltid 2 år)",
+      "study_location": {
+        "2": "Kjeller",
+        "0": "Kongsberg",
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år",
+        "12": "Deltid 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

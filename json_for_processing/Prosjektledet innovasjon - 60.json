@@ -4,7 +4,12 @@
       "id": "Prosjektledet innovasjon - 60",
       "title": "Prosjektledet innovasjon",
       "description": "Prosjektledet innovasjon er en videreutdanning for fagarbeidere og yrkesutøvere som ønsker å styrke sin rolle i utviklings- og forbedringsarbeid på arbeidsplassen. Studiet gir praktiske verktøy i innovasjon og prosjektarbeid, og kan tas ved siden av jobb.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

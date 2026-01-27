@@ -4,7 +4,12 @@
       "id": "Helhetlig energisystemer - 5",
       "title": "Helhetlig energisystemer",
       "description": "Vil du få dyptgående innsikt i energisystemers rolle i en bærekraftig framtid? Emnet Helhetlig energisystemer gir deg kompetanse til å forstå, analysere og forbedre hvordan energi genereres, distribueres, lagres og brukes i bygg. Gjennom fleksibel, nettbasert undervisning med samlinger, utvikles du til en nøkkelressurs i overgangen til mer bærekraftige energiløsninger.",
-      "study_location": "Kongsberg (Samlingsbasert ca. 10 uker)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "2": "Samlingsbasert ca. 10 uker"
+      },
       "credits": 5,
       "language": "Norsk",
       "level": "Enkeltemne",

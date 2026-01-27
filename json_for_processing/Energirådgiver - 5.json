@@ -4,7 +4,12 @@
       "id": "Energirådgiver - 5",
       "title": "Energirådgiver",
       "description": "Vil du bidra til en mer bærekraftig byggenæring? Med enkeltemnet Energirådgiver får du kompetanse til å veilede enkeltpersoner, bedrifter og samfunn mot energieffektive og miljøvennlige løsninger. Studiet gir deg praktisk kunnskap og ferdigheter som er etterspurt i både privat og offentlig sektor.",
-      "study_location": "Kongsberg (Samlingsbasert ca. 10 uker)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "2": "Samlingsbasert ca. 10 uker"
+      },
       "credits": 5,
       "language": "Norsk",
       "level": "Enkeltemne",

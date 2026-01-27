@@ -4,7 +4,12 @@
       "id": "Verdiskapende dataanalyse - 10",
       "title": "Verdiskapende dataanalyse",
       "description": "Verdiskapende dataanalyse er emnet for deg som vil bruke sensordata og produksjonsdata til smartere drift. Du lærer å omsette data til konkrete forbedringer i energi- og ressursbruk, driftssikkerhet og vedlikehold – slik at virksomheten får bedre kvalitet, mindre nedetid og lavere miljøavtrykk.",
-      "study_location": "Kjeller (Samlingsbasert ca. 12 uker)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "3": "Samlingsbasert ca. 12 uker"
+      },
       "credits": 10,
       "language": "Norsk",
       "level": "Enkeltemne",

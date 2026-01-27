@@ -4,7 +4,15 @@
       "id": "Bygg - 120",
       "title": "Bygg",
       "description": "Bygg er fagskoleutdanningen for deg som vil ta steget fra fagarbeider til leder i byggebransjen. Du lærer å planlegge, prosjektere og lede byggeprosjekter med fokus på moderne byggteknikk, bærekraft og digital samhandling (BIM).",
-      "study_location": "Fredrikstad (Deltid 3 år) | Kongsberg (Samlingsbasert 3 år) | Kongsberg (Heltid 2 år) | Fredrikstad (Heltid 2 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "13": "Deltid 3 år",
+        "9": "Samlingsbasert 3 år",
+        "11": "Heltid 2 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

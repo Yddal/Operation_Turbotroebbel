@@ -4,7 +4,14 @@
       "id": "Barn og unge med behov for særskilt tilrettelegging - 60",
       "title": "Barn og unge med behov for særskilt tilrettelegging",
       "description": "Barn og unge med behov for særskilt tilrettelegging er videreutdanningen for deg som vil gi tidlig og riktig støtte når det trengs. Du bruker relasjonskompetanse, observasjon og målrettede tiltak for å fremme mestring, trygghet og livsmestring i barnehage, skole og SFO.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Kjeller (Samlingsbasert 2 år) | Kongsberg (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "2": "Kjeller",
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

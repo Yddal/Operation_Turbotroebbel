@@ -4,7 +4,14 @@
       "id": "Industriell digitalisert automatisering - 10",
       "title": "Industriell digitalisert automatisering",
       "description": "Utdanningen gir fagarbeidere spisskompetanse innen automatiserte og digitaliserte løsninger. Du blir faglig oppdatert, tilegner deg kunnskap om ny teknologi og bidrar til å gjøre din arbeidsplass enda mer konkurransedyktig.",
-      "study_location": "Kongsberg (Samlingsbasert ca. 10 uker) | Kjeller (Samlingsbasert 1 år) | Kongsberg (Samlingsbasert 1 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "2": "Samlingsbasert ca. 10 uker",
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 10,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

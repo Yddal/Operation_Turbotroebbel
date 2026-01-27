@@ -4,7 +4,14 @@
       "id": "Klima, energi og miljø i bygg (KEM) - 120",
       "title": "Klima, energi og miljø i bygg (KEM)",
       "description": "Klima, energi og miljø (KEM) er videreutdanningen for deg som vil planlegge, prosjektere og drifte tekniske installasjoner i bygg. Du lærer å levere energieffektive løsninger med godt inneklima og helhetlig systemforståelse – i tett kontakt med bransjens krav og standarder.",
-      "study_location": "Kongsberg (Samlingsbasert 4 år) | Fredrikstad (Deltid 3 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "10": "Samlingsbasert 4 år",
+        "13": "Deltid 3 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

@@ -4,7 +4,13 @@
       "id": "Klinisk helsearbeid - 60",
       "title": "Klinisk helsearbeid",
       "description": "Klinisk helsearbeid er en fleksibel fagskoleutdanning for helsefagarbeidere som ønsker faglig utvikling tett knyttet til arbeid i helsetjenestene. Studiet gir deg mulighet til å bygge kompetanse gjennom valgbare emner og utvikle en fagskolegrad tilpasset egne interesser og behov i helsetjenestene.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Indre Østfold (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "3": "Indre Østfold"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

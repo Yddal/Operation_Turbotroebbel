@@ -4,7 +4,12 @@
       "id": "Prosessindustri i grønt skifte - 15",
       "title": "Prosessindustri i grønt skifte",
       "description": "Er du fagarbeider i prosessindustrien og ønsker å bidra til det grønne skiftet? Studiet Prosessindustri i grønt skifte gir deg den nødvendige kompetansen for å møte fremtidens krav til bærekraft og digitalisering. Studiet er spesielt tilpasset deg som har fagbrev og erfaring fra industrien, og som ønsker å utvide din kunnskap og ansvar i en tid med store omstillinger.",
-      "study_location": "Kongsberg (Samlingsbasert 7 måneder)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "6": "Samlingsbasert 7 måneder"
+      },
       "credits": 15,
       "language": "Norsk",
       "level": "Fagskolegrad",

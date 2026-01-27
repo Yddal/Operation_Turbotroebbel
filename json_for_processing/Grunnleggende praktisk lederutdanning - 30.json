@@ -4,7 +4,12 @@
       "id": "Grunnleggende praktisk lederutdanning - 30",
       "title": "Grunnleggende praktisk lederutdanning",
       "description": "Grunnleggende praktisk lederutdanning er for deg som vil ta steget fra fagrolle til trygg lederrolle. Du lærer å lede mennesker og arbeidsflyt, kommunisere tydelig, forstå rammer, regelverk og grunnleggende økonomi – og skape et arbeidsmiljø som leverer kvalitet, trivsel og resultater.",
-      "study_location": "Kongsberg (Samlingsbasert 1 år)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

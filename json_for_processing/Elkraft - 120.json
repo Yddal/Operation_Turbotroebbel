@@ -4,7 +4,16 @@
       "id": "Elkraft - 120",
       "title": "Elkraft",
       "description": "Elkraftfaget omfatter hele energikjeden, fra produksjon og fordeling til forbruk og er et fagområde i rask utvikling. Alternativ energi og automatisering er noen stikkord her. Det er stort behov for fagskoleingeniører innen elkraft. Her får du også teorien som kreves for autorisasjon som elektroinstallatør og ekominstallatør.",
-      "study_location": "Fredrikstad (Heltid 2 år) | Kongsberg (Heltid 2 år) | Fredrikstad (Deltid 3 år) | Kongsberg (Samlingsbasert 4 år) | Kjeller (Samlingsbasert 4 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "0": "Kongsberg",
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "11": "Heltid 2 år",
+        "13": "Deltid 3 år",
+        "10": "Samlingsbasert 4 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

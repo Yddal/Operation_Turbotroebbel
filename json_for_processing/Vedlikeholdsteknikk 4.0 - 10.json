@@ -4,7 +4,12 @@
       "id": "Vedlikeholdsteknikk 4.0 - 10",
       "title": "Vedlikeholdsteknikk 4.0",
       "description": "Ny teknologi og nye måter å anvende teknologien på endrer produkter, forretningsmodeller, logistikk, produksjon og råvareutvinning. Med modulstudiet Vedlikeholdsteknikk 4.0 får du som har vedlikeholdsoppgaver innen tekniske industrielle vedlikeholdsfag, kompetanse som gjør deg bedre rustet til å møte arbeidslivets nye behov innen drift og vedlikehold.",
-      "study_location": "Kjeller (Samlingsbasert ca. 12 uker)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "3": "Samlingsbasert ca. 12 uker"
+      },
       "credits": 10,
       "language": "Norsk",
       "level": "Enkeltemne",

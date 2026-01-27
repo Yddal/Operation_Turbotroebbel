@@ -4,7 +4,12 @@
       "id": "Veiledning i yrkesopplæring - 30",
       "title": "Veiledning i yrkesopplæring",
       "description": "Veiledning i yrkesopplæring er videreutdanningen for deg som veileder lærlinger eller kolleger i bedrift. Du utvikler trygg veilederkompetanse i kommunikasjon, vurdering og opplæring på arbeidsplassen, slik at lærlinger får best mulig læringsutbytte og bedriften bygger varig kompetanse.",
-      "study_location": "Kjeller (Samlingsbasert 1 år)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

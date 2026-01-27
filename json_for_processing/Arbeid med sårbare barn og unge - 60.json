@@ -4,7 +4,14 @@
       "id": "Arbeid med sårbare barn og unge - 60",
       "title": "Arbeid med sårbare barn og unge",
       "description": "Arbeid med sårbare barn og unge er videreutdanningen for deg som vil gi trygge, helhetlige og koordinerte tjenester til barn og unge med sammensatte behov. Du lærer å bruke familiesentrert omsorg, tydelig kommunikasjon og tverrfaglig samhandling for å styrke medvirkning, mestring og livskvalitet – i samarbeid med pårørende og tjenesteapparat.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Kjeller (Samlingsbasert 2 år) | Fredrikstad (Samlingsbasert ca. 12 uker)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år",
+        "3": "Samlingsbasert ca. 12 uker"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

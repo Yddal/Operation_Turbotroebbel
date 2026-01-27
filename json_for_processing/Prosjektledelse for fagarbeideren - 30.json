@@ -4,7 +4,17 @@
       "id": "Prosjektledelse for fagarbeideren - 30",
       "title": "Prosjektledelse for fagarbeideren",
       "description": "Prosjektledelse for fagarbeideren passer for deg som vil ta steget fra fag til ledelse. Du lærer å planlegge, styre og avslutte prosjekter med tydelige mål, god kommunikasjon, kontroll på tid og kostnad – og med vekt på bærekraft og kvalitet.",
-      "study_location": "Kongsberg (Samlingsbasert 1 år) | Fredrikstad (Samlingsbasert 1 år) | Kjeller (Samlingsbasert 1 år) | Mo i Rana (Samlingsbasert 1 år) | Indre Østfold (Samlingsbasert 1 år) | Geilo (Samlingsbasert 1 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "1": "Fredrikstad",
+        "2": "Kjeller",
+        "7": "Mo i Rana",
+        "3": "Indre Østfold",
+        "8": "Geilo"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

@@ -4,7 +4,12 @@
       "id": "Reiselivsledelse - 30",
       "title": "Reiselivsledelse",
       "description": "Reiselivsledelse er videreutdanningen for deg som vil utvikle, lede og forbedre bærekraftige opplevelser i reiseliv og HoReCa. Du lærer å gå fra idé til drift: teste forretningsmodeller, lede prosjekter og team, styre økonomi og servicekvalitet – slik at du kan skape verdifulle gjesteopplevelser og bedre resultater i virksomheten.",
-      "study_location": "Jessheim (Samlingsbasert 1 år)",
+      "study_location": {
+        "5": "Jessheim"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

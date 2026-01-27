@@ -4,7 +4,14 @@
       "id": "BIM-tekniker konstruksjon - 60",
       "title": "BIM-tekniker konstruksjon",
       "description": "BIM-tekniker konstruksjon er videreutdanningen for deg som vil ta en nøkkelrolle i digital prosjektering av bygg og anlegg. Du lærer å bruke bygningsinformasjonsmodellering (BIM) til å planlegge, modellere og kvalitetssikre konstruksjoner – fra idé til “as-built”.",
-      "study_location": "Kongsberg (Samlingsbasert 2 år) | Fredrikstad (Stedbasert 2 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år",
+        "14": "Stedbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

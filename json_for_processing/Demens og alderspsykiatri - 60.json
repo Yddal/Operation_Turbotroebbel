@@ -4,7 +4,12 @@
       "id": "Demens og alderspsykiatri - 60",
       "title": "Demens og alderspsykiatri",
       "description": "Demens og alderspsykiatri er videreutdanningen for deg som jobber med eldre og ønsker trygghet i møte med mennesker med demens, psykiske lidelser og sammensatte behov. Du lærer å observere, vurdere og følge opp på en faglig og etisk trygg måte – og bidra til mer personsentrert omsorg for både den eldre og pårørende.",
-      "study_location": "Kjeller (Samlingsbasert 2 år)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

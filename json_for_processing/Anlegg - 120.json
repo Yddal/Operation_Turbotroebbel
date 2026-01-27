@@ -4,7 +4,13 @@
       "id": "Anlegg - 120",
       "title": "Anlegg",
       "description": "Anlegg er utdanningen for deg som vil ta neste steg i anleggsbransjen og lære å planlegge, lede og kvalitetssikre prosjekter fra start til ferdig anlegg. Du får solid faglig grunnlag i anleggsteknikk, prosjektstyring og bærekraft – og blir trygg i rollen som leder i et fagfelt som stadig utvikles.",
-      "study_location": "Kongsberg (Samlingsbasert 3 år) | Kongsberg (Heltid 2 år)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "9": "Samlingsbasert 3 år",
+        "11": "Heltid 2 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

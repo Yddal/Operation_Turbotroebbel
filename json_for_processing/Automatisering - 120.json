@@ -4,7 +4,14 @@
       "id": "Automatisering - 120",
       "title": "Automatisering",
       "description": "Alt som kan automatiseres, kommer til å bli det. Prosesser i industrien og automasjon i bygninger er selvsagte i en slik utvikling, men også mange andre fagområder kommer til å bli berørt. Automasjonssystemer blir mer og mer aktuelt i moderne industri, og behovet for fagpersoner er økende.",
-      "study_location": "Kongsberg (Samlingsbasert 4 år) | Kongsberg (Heltid 2 år) | Kjeller (Samlingsbasert 4 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "10": "Samlingsbasert 4 år",
+        "11": "Heltid 2 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

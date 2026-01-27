@@ -4,7 +4,12 @@
       "id": "Bedriftsutvikling i frisørfaget - 30",
       "title": "Bedriftsutvikling i frisørfaget",
       "description": "Bedriftsutvikling i frisørfaget er et 100 % nettstudium for frisører som vil lede, utvikle og løfte salongen. Du bruker verktøy innen økonomi, ledelse, markedsføring, digital kundereise og kjemi for frisører for å skape trygge behandlinger, lønnsom drift og sterkere kundeopplevelser.",
-      "study_location": "Kjeller (Nettstudium 1 år)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "15": "Nettstudium 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

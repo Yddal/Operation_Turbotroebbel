@@ -4,7 +4,12 @@
       "id": "Innsatsleder Helse - 60",
       "title": "Innsatsleder Helse",
       "description": "Innsatsleder Helse er en videreutdanning for prehospitalt personell som ønsker formalisert kompetanse og økt trygghet i ledelse av helsetjenestens organisering ved alvorlige og større hendelser. Du styrker kompetansen din i ledelse, samhandling, beslutningstaking og beredskap – og bidrar til tryggere og mer koordinert helsehjelp når det gjelder som mest.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

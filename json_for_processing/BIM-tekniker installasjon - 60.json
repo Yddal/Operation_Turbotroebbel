@@ -4,7 +4,12 @@
       "id": "BIM-tekniker installasjon - 60",
       "title": "BIM-tekniker installasjon",
       "description": "BIM-tekniker installasjon er en videreutdanning for deg som vil jobbe smart og digitalt i bygg- og anleggsprosjekter. Du bruker bygningsinformasjonsmodellering (BIM) til å planlegge, modellere og kvalitetssikre tekniske installasjoner – fra informasjonsflyt og samhandling til modellkontroll og dokumentasjon. Utdanningen gjennomføres nettbasert med samlinger.",
-      "study_location": "Kongsberg (Samlingsbasert 2 år)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

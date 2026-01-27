@@ -4,7 +4,17 @@
       "id": "Observasjons- og vurderingskompetanse i helsetjenesten - 60",
       "title": "Observasjons- og vurderingskompetanse i helsetjenesten",
       "description": "Videreutdanning for fagarbeidere i helse- og omsorgstjenesten som vil bli tryggere på å oppdage endringer tidlig og handle riktig. Du lærer å observere, vurdere og dokumentere helsetilstand for å bidra til trygg og helhetlig pasientoppfølging.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Kjeller (Samlingsbasert 2 år) | Drammen (Samlingsbasert 2 år) | Fredrikstad (Samlingsbasert ca. 12 uker) | Kongsberg (Samlingsbasert ca. 12 uker) | Gauldal (Samlingsbasert ca. 12 uker)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "2": "Kjeller",
+        "4": "Drammen",
+        "0": "Kongsberg",
+        "6": "Gauldal"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år",
+        "3": "Samlingsbasert ca. 12 uker"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

@@ -4,7 +4,12 @@
       "id": "Matteknikk - 120",
       "title": "Matteknikk",
       "description": "Matteknikk er for deg som vil sikre trygg matproduksjon fra råvare til ferdig produkt – med ansvar for kvalitet, prosess og forbedring i hele verdikjeden.",
-      "study_location": "Fredrikstad (Samlingsbasert 3 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "9": "Samlingsbasert 3 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

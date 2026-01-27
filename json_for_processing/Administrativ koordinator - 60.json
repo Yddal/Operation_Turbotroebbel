@@ -4,7 +4,12 @@
       "id": "Administrativ koordinator - 60",
       "title": "Administrativ koordinator",
       "description": "Administrativ koordinator er utdanningen for deg som vil ta neste steg i rollen som nøkkelperson i virksomheten. Du lærer å støtte ledere og avdelinger med trygg administrasjon, økonomi og prosjektarbeid og å skape god flyt i kommunikasjon, samhandling og rutiner på tvers.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

@@ -4,7 +4,14 @@
       "id": "Psykisk helsearbeid og rusarbeid - 60",
       "title": "Psykisk helsearbeid og rusarbeid",
       "description": "Psykisk helsearbeid og rusarbeid er videreutdanningen for deg som vil gjøre en konkret forskjell for mennesker med sammensatte utfordringer. Du bruker relasjons- og miljøterapeutiske metoder, helsefremming og forebygging, og tverrfaglig samhandling for å gi trygg oppfølging – i hverdagen, i kriser og over tid.",
-      "study_location": "Fredrikstad (Samlingsbasert 2 år) | Kjeller (Samlingsbasert 2 år) | Kongsberg (Samlingsbasert 2 år)",
+      "study_location": {
+        "1": "Fredrikstad",
+        "2": "Kjeller",
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "8": "Samlingsbasert 2 år"
+      },
       "credits": 60,
       "language": "Norsk",
       "level": "Fagskolegrad",

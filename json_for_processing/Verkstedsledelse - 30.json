@@ -4,7 +4,12 @@
       "id": "Verkstedsledelse - 30",
       "title": "Verkstedsledelse",
       "description": "Verkstedsledelse er fagskoleutdanningen for deg som ønsker trygghet og faglig tyngde i lederrollen. Du lærer å kombinere teknisk innsikt med økonomi, personalledelse og kundebehandling – og skape et verksted som drives effektivt, lønnsomt og med høy kvalitet.",
-      "study_location": "Kjeller (Samlingsbasert 1 år)",
+      "study_location": {
+        "2": "Kjeller"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

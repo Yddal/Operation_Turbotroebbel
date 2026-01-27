@@ -4,7 +4,12 @@
       "id": "Innføring i teknologifag - 5",
       "title": "Innføring i teknologifag",
       "description": "Få kompetanse som tar deg videre i teknologifagene, ved å utvikle kritisk tenkning, samarbeid og digitale ferdigheter.",
-      "study_location": "Kongsberg (Samlingsbasert 6 uker)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "1": "Samlingsbasert 6 uker"
+      },
       "credits": 5,
       "language": "Norsk",
       "level": "Enkeltemne",

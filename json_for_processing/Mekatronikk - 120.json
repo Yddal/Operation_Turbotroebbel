@@ -4,7 +4,15 @@
       "id": "Mekatronikk - 120",
       "title": "Mekatronikk",
       "description": "Moderne produktutvikling og produksjonsteknikk trenger fagfolk som jobber tverrfaglig for å løse komplekse arbeidsoppgaver. Mekatronikk kombinerer mekanikk, elektronikk og datateknikk og rekrutterer fra både elektro-, automasjons- og maskinfagene.",
-      "study_location": "Kongsberg (Samlingsbasert 4 år) | Kongsberg (Heltid 2 år) | Fredrikstad (Deltid 3 år)",
+      "study_location": {
+        "0": "Kongsberg",
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "10": "Samlingsbasert 4 år",
+        "11": "Heltid 2 år",
+        "13": "Deltid 3 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

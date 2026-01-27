@@ -4,7 +4,12 @@
       "id": "Bilteknikk - 120",
       "title": "Bilteknikk",
       "description": "Bilteknikk er videreutdanningen for deg som vil ta mer ansvar i verksted og drift. Du styrker kompetansen i kjøretøyteknologi, ledelse, kvalitet og HMS – og blir trygg på å lede arbeid i en bransje i rask teknologisk utvikling.",
-      "study_location": "Kongsberg (Samlingsbasert 4 år)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "10": "Samlingsbasert 4 år"
+      },
       "credits": 120,
       "language": "Norsk",
       "level": "Høyere fagskolegrad",

@@ -4,7 +4,12 @@
       "id": "Nevrologi - 30",
       "title": "Nevrologi",
       "description": "Nevrologi er videreutdanningen for deg som jobber med pasienter med sykdom eller skade i nervesystemet og ønsker økt faglig trygghet i komplekse pasientsituasjoner. Du bygger kompetanse i observasjon, klinisk vurdering og ansvarlig oppfølging av pasienter med både akutte og langvarige nevrologiske tilstander.",
-      "study_location": "Fredrikstad (Samlingsbasert 1 år)",
+      "study_location": {
+        "1": "Fredrikstad"
+      },
+      "study_type": {
+        "7": "Samlingsbasert 1 år"
+      },
       "credits": 30,
       "language": "Norsk",
       "level": "Vitnemålsgivende studie",

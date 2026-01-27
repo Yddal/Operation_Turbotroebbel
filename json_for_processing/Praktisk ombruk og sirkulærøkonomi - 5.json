@@ -4,7 +4,12 @@
       "id": "Praktisk ombruk og sirkulærøkonomi - 5",
       "title": "Praktisk ombruk og sirkulærøkonomi",
       "description": "Ønsker du å styrke din kompetanse innen bærekraftig ombruk og sirkulær økonomi? Emnet Praktisk ombruk og sirkulærøkonomi gir deg innsikt og praktiske ferdigheter til å fremme grønn omstilling i bygg- og anleggsbransjen. Gjennom fleksibel, nettbasert undervisning med samlinger blir du i stand til å skape verdi gjennom mer bærekraftige løsninger.",
-      "study_location": "Kongsberg (Samlingsbasert ca. 10 uker)",
+      "study_location": {
+        "0": "Kongsberg"
+      },
+      "study_type": {
+        "2": "Samlingsbasert ca. 10 uker"
+      },
       "credits": 5,
       "language": "Norsk",
       "level": "Enkeltemne",

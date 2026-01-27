@@ -1,0 +1,6 @@
+[client]
+host = 192.168.1.166
+port = 3306
+user = wsl_user
+password = password
+database = fagskolen

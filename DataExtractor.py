@@ -84,7 +84,6 @@ class StudyDataExtractor:
                 
                 course_points_Int = course_points.get_text(separator=" | ",strip=True).split(" ")
                 
-                #print(course_points_Int)
                 try:
                     course_points_Int = int(course_points_Int[0])
                 except ValueError:
@@ -329,15 +328,15 @@ class StudyDataExtractor:
         """Display summary of extracted data."""
         study_df, courses_df = self.to_dataframes()
         
-        print("\n" + "="*70)
-        print("STUDY PROGRAMS DATA (DataFrame)")
-        print("="*70)
-        print(study_df.to_string())
+        #print("\n" + "="*70)
+        #print("STUDY PROGRAMS DATA (DataFrame)")
+        #print("="*70)
+        #print(study_df.to_string())
         
-        print("\n" + "="*70)
-        print("COURSES DATA (DataFrame)")
-        print("="*70)
-        print(courses_df.to_string())
+        #print("\n" + "="*70)
+        #print("COURSES DATA (DataFrame)")
+        #print("="*70)
+        #print(courses_df.to_string())
         
         return study_df, courses_df
 

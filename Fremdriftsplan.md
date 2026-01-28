@@ -15,8 +15,15 @@ Lager agenter
 
 28/01/2026
 
+Kristoffer har py kode for overføring av data
+
 DA
-Sjekker hvordan man kan få flere lokasjoner i et felt i en tabell
+Setter opp kobling mellom VS og MySQL
+Sjekker hvordan man kan få flere lokasjoner i et felt i en tabell? Kanskje ikke
 
 ML
+MCP server satt opp
+Vi prøver å sette opp en agent
+
+Nytt møte etter lunsj
 

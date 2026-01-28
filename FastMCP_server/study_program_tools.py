@@ -20,6 +20,19 @@ class TableStudyPrograms:
         result = self.conn.query(f"SELECT study_title FROM {self.table}")
         return [title[0] for title in result]
     
+
+    '''
+    SELECT `COLUMN_NAME` 
+    FROM `INFORMATION_SCHEMA`.`COLUMNS` 
+    WHERE `TABLE_SCHEMA`='fagskolen' 
+    AND `TABLE_NAME`='study_programs';
+    '''
+
+    '''
+    DESCRIBE fagskolen.study_programs;
+    '''
+    
+    
 if __name__ == "__main__":
     DATABASE = "fagskolen"
     STUDY_PROGRAM_TABLE = "study_programs"

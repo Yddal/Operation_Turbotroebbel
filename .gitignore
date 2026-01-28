@@ -47,3 +47,4 @@ check_locations.py
 quick_check.py
 scan_course_ids.py
 requirements.txt
+FastMCP/*

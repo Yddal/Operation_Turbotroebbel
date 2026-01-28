@@ -11,3 +11,12 @@ ML
 Clean up på extractor/scraping - Kristoffer, Jan Magne
 ML setter opp MCP server - Krissana
 Lager agenter 
+
+
+28/01/2026
+
+DA
+Sjekker hvordan man kan få flere lokasjoner i et felt i en tabell
+
+ML
+

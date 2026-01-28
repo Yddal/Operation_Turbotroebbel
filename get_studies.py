@@ -4,6 +4,8 @@ import time
 import json
 
 
+APPEN_FOR_OPPTAK = "f[0]=apent_for_opptak%3A1&"
+
 buffer_file = r"studies_urls.json"
 """
 les ut alle nettside linkene til studiene ved fagskolen
@@ -33,7 +35,7 @@ def scrape_urls() -> list:
     while True:
 
         # send
-        req = Request(f"{base_url}studier?page={page}", headers={"User-Agent": "Mozilla/5.0"})
+        req = Request(f"{base_url}studier?{APPEN_FOR_OPPTAK}page={page}", headers={"User-Agent": "Mozilla/5.0"})
         html = urlopen(req).read().decode("utf-8", errors="ignore")
         soup = BeautifulSoup(html, "lxml")
 
@@ -56,7 +58,8 @@ def scrape_urls() -> list:
     return urls
 
 if __name__ == "__main__":
-    urls = get_urls(True)
+    urls = get_urls(use_buffer=False)
     print(f"Fagskolen tilbyr {len(urls)} forskejellige studier")
+    print(f"{len(urls)} linker funnet")
     for url in urls:
         print(url)

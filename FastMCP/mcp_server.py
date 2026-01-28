@@ -21,3 +21,4 @@ if __name__ == "__main__":
     mcp.tool(courses.get_corse_names)
 
     asyncio.run(main())
+    

@@ -128,8 +128,8 @@ def process_file(cursor, filepath: str):
 def main():
 	parser = argparse.ArgumentParser(description='Push JSON study data into MySQL')
 	parser.add_argument('--host', default='127.0.0.1')
-	parser.add_argument('--user', default='turbotroebbel')
-	parser.add_argument('--password', default='turbotroebbel')
+	parser.add_argument('--user', default='python')
+	parser.add_argument('--password', default='python')
 	parser.add_argument('--database', default='fagskolen')
 	parser.add_argument('--json-dir', default='json_for_processing')
 	parser.add_argument('--dry-run', action='store_true')

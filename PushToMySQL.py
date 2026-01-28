@@ -71,14 +71,15 @@ def collect_all_locations(files: list) -> dict:
 
 
 def upsert_study_program(cursor, program: Dict[str, Any], location_id: int):
-	sql = ("INSERT INTO study_programs (study_id, study_title, study_description, location_id, credits, study_language, study_lvl, why_choose, what_learn, teaching_format, mandatory_attendance, police_certificate, career_opportunities, contact_info, study_url, course_id)"
-		   " VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
-		   " ON DUPLICATE KEY UPDATE study_title=VALUES(study_title), study_description=VALUES(study_description), location_id=VALUES(location_id), credits=VALUES(credits), study_language=VALUES(study_language), study_lvl=VALUES(study_lvl), why_choose=VALUES(why_choose), what_learn=VALUES(what_learn), teaching_format=VALUES(teaching_format), mandatory_attendance=VALUES(mandatory_attendance), police_certificate=VALUES(police_certificate), career_opportunities=VALUES(career_opportunities), contact_info=VALUES(contact_info), study_url=VALUES(study_url), course_id=VALUES(course_id)")
+	sql = ("INSERT INTO study_programs (study_id, study_title, study_description, study_category, location_id, credits, study_language, study_lvl, why_choose, what_learn, teaching_format, mandatory_attendance, police_certificate, career_opportunities, contact_info, study_url, course_id)"
+		" VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s)"
+		" ON DUPLICATE KEY UPDATE study_title=VALUES(study_title), study_description=VALUES(study_description), study_category=VALUES(study_category), location_id=VALUES(location_id), credits=VALUES(credits), study_language=VALUES(study_language), study_lvl=VALUES(study_lvl), why_choose=VALUES(why_choose), what_learn=VALUES(what_learn), teaching_format=VALUES(teaching_format), mandatory_attendance=VALUES(mandatory_attendance), police_certificate=VALUES(police_certificate), career_opportunities=VALUES(career_opportunities), contact_info=VALUES(contact_info), study_url=VALUES(study_url), course_id=VALUES(course_id)")
 
 	params = (
 		program.get('id'),
 		program.get('title'),
 		program.get('description'),
+		program.get('study_category'),
 		location_id,
 		program.get('credits'),
 		program.get('language'),
@@ -128,8 +129,8 @@ def process_file(cursor, filepath: str):
 def main():
 	parser = argparse.ArgumentParser(description='Push JSON study data into MySQL')
 	parser.add_argument('--host', default='127.0.0.1')
-	parser.add_argument('--user', default='python')
-	parser.add_argument('--password', default='python')
+	parser.add_argument('--user', default='root')
+	parser.add_argument('--password', default='admin')
 	parser.add_argument('--database', default='fagskolen')
 	parser.add_argument('--json-dir', default='json_for_processing')
 	parser.add_argument('--dry-run', action='store_true')
@@ -216,6 +217,7 @@ def main():
 			tmpc.execute("ALTER TABLE study_programs MODIFY contact_info TEXT")
 			tmpc.execute("ALTER TABLE study_programs MODIFY mandatory_attendance TEXT")
 			tmpc.execute("ALTER TABLE study_programs MODIFY teaching_format TEXT")
+			tmpc.execute("ALTER TABLE study_programs ADD COLUMN study_category VARCHAR(100)")
 			# To increase course_id length we must drop the FK, alter both tables, then recreate the FK
 			try:
 				tmpc.execute("ALTER TABLE study_programs DROP FOREIGN KEY courseID_FK")

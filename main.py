@@ -12,5 +12,5 @@ if __name__ == "__main__":
     for url in urls:
         DataExtractor.extract(url)
         # vent litt mellom hver forespørsel
-        time.sleep(0.5)
+        time.sleep(1)
     

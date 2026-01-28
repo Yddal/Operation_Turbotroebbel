@@ -190,6 +190,7 @@ class StudyDataExtractor:
         study_info = {
             'title': None,
             'description': None,
+            'study_category': None,
             'study_location': None,
             'study_type': None,
             'credits': None,
@@ -214,25 +215,16 @@ class StudyDataExtractor:
             intro_elem = self.soup.select_one('.study-detail--intro__text')
             study_info['description'] = intro_elem.get_text(separator=" | ",strip=True) if intro_elem else None
             
+            # Study Category
+            intro_elem = self.soup.select_one('.study-detail--intro__tag')
+            study_info['study_category'] = intro_elem.get_text(strip=True) if intro_elem else None
+
             # Study Location:
             location_info = self.soup.select_one('.study-detail--campus__select')
             location_info = location_info.get_text(separator=" | ",strip=True) if intro_elem else None
             
             study_info['study_location'], study_info['study_type'] = match_location_and_studyType(location_info)
             
-            """
-            study_info_list = study_info['study_location'].split("|")
-            study_info_json = {}
-            i = 0
-            for location in study_info_list:
-                
-                study_info_json[i] = location.strip()
-                i += 1
-            study_info['study_location'] = study_info_json
-            
-            print(study_info['study_location'])
-            """
-
             # Credits
             credits_elem = self.soup.select_one('div.field.field--name-field-study-points.field--type-integer.field--label-hidden.field__item')
             credits_elem = credits_elem.get_text(separator=" | ",strip=True)
@@ -310,6 +302,7 @@ class StudyDataExtractor:
                     'id': study_info['title'] + " - " + str(study_info['credits']),  # To be assigned by database
                     'title': study_info['title'],
                     'description': study_info['description'],
+                    'study_category': study_info['study_category'],
                     'study_location': study_info['study_location'],
                     'study_type': study_info['study_type'],
                     'credits': study_info['credits'],

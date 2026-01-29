@@ -27,12 +27,17 @@ if __name__ == "__main__":
     mcp.tool(study_programs.get_study_program_categories)
     mcp.tool(study_programs.get_category_study_programs)
     mcp.tool(study_programs.get_study_programs_names)
+<<<<<<< HEAD:FastMCP/mcp_server.py
+    mcp.tool(study_programs.get_study_info)
+=======
     mcp.tool(study_programs.get_datafields)
     mcp.tool(study_programs.get_datafields_values)
+>>>>>>> 286cd246fc19ef0f59436fb71251ea00722e70b3:FastMCP_server/mcp_server.py
 
     # add methods as tools for courses
     mcp.tool(courses.get_number_of_courses)
     mcp.tool(courses.get_corse_names)
+    mcp.tool(courses.get_course_info)
 
     asyncio.run(main())
     

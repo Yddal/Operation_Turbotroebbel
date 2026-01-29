@@ -36,10 +36,12 @@ except Exception as e:  # pragma: no cover - user will install if missing
     print("Missing mysql connector. Install with: pip install mysql-connector-python")
     raise
 
+HOSTNAME = "127.0.0.1"
+USERNAME = "root"
+PASSWORD = "admin"
 
 def find_config_candidates(base_dir: str) -> List[str]:
     return [
-        os.path.join(base_dir, "e-l", "config.cnf"),
         os.path.join(base_dir, "config.cnf"),
     ]
 
@@ -67,9 +69,9 @@ def read_db_config(path: Optional[str], base_dir: str) -> Dict[str, str]:
 
     conf = cfg[section]
     return {
-        "host": conf.get("host", "127.0.0.1"),
-        "user": conf.get("user", conf.get("username", "root")),
-        "password": conf.get("password", ""),
+        "host": conf.get("host", HOSTNAME),
+        "user": conf.get("user", conf.get("username", USERNAME)),
+        "password": conf.get("password", PASSWORD),
         "database": conf.get("database", conf.get("db", "fagskolen")),
         "port": conf.get("port", "3306"),
     }
@@ -77,9 +79,9 @@ def read_db_config(path: Optional[str], base_dir: str) -> Dict[str, str]:
 
 def connect_db(conf: Dict[str, str]):
     return mysql.connector.connect(
-        host=conf.get("host", "127.0.0.1"),
-        user=conf.get("user", "root"),
-        password=conf.get("password", "root"),
+        host=conf.get("host", HOSTNAME),
+        user=conf.get("user", USERNAME),
+        password=conf.get("password", PASSWORD),
         database=conf.get("database", "fagskolen"),
         port=int(conf.get("port", 3306)),
         autocommit=False,
@@ -190,7 +192,7 @@ def main(argv: Optional[List[str]] = None):
     if not db_conf:
         print("No config found. Provide --config or create e-l/config.cnf with [mysql] section.")
         print("Attempting default local connection to database 'fagskolen' on localhost.")
-        db_conf = {"host": "127.0.0.1", "user": "root", "password": "", "database": "fagskolen", "port": "3306"}
+        db_conf = {"host": HOSTNAME, "user":USERNAME, "password": PASSWORD, "database": "fagskolen", "port": "3306"}
 
     files = load_json_files(args.folder)
     if not files:

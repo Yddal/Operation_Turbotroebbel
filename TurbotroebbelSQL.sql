@@ -4,14 +4,14 @@ USE fagskolen;
 
 CREATE TABLE IF NOT EXISTS courses
 ( 
-	course_id VARCHAR(16) PRIMARY KEY,
-    course_title VARCHAR(100),
-    credits NUMERIC(3, 2),
+	course_id VARCHAR(20) PRIMARY KEY,
+    course_title VARCHAR(500),
+    credits NUMERIC(12, 5),
     url VARCHAR(200),
     study_level VARCHAR(100),
-    lear_out_know VARCHAR(400),
-    lear_out_skills VARCHAR(400),
-    lear_out_competence VARCHAR(400)
+    lear_out_know TEXT,
+    lear_out_skills TEXT,
+    lear_out_competence TEXT
 );
 
 CREATE TABLE IF NOT EXISTS study_place
@@ -24,25 +24,38 @@ CREATE TABLE IF NOT EXISTS study_place
 CREATE TABLE IF NOT EXISTS study_programs
 (
 	study_id VARCHAR(200) PRIMARY KEY,
-    study_title VARCHAR(100),
-    study_description VARCHAR(400),
+    study_title VARCHAR(400),
+    study_description VARCHAR(600),
     location_id SMALLINT,
-    credits DECIMAL (3, 2),
+    credits DECIMAL (12, 5),
     study_language VARCHAR(50),
-    study_lvl VARCHAR(60),
-    why_choose VARCHAR(2000),
-    what_learn VARCHAR(2000),
-    teaching_format VARCHAR(500),
-    mandatory_attendance VARCHAR(1000),
+    study_lvl VARCHAR(100),
+    why_choose TEXT,
+    what_learn TEXT,
+    teaching_format TEXT,
+    mandatory_attendance TEXT,
     police_certificate BOOLEAN,
-    career_opportunities VARCHAR(2000),
-    contact_info VARCHAR(400),
-    study_url VARCHAR(400),
-    course_id VARCHAR(16),
-	CONSTRAINT courseID_FK
+    career_opportunities TEXT,
+    contact_info TEXT,
+    study_url TEXT,
+    course_id VARCHAR(20),
+	CONSTRAINT courseID_fk
 		FOREIGN KEY(course_id)
         REFERENCES courses(course_id),
-    CONSTRAINT study_place_FK
+    CONSTRAINT study_place_fk
 		FOREIGN KEY(location_id)
         REFERENCES study_place(location_id)
+);
+
+CREATE TABLE IF NOT EXISTS lookuptalbe_study_course
+(
+	study_id VARCHAR(200),
+    course_id VARCHAR(20),
+    CONSTRAINT study_course_pk PRIMARY KEY (study_id, course_id),
+    CONSTRAINT study_id_fk
+		FOREIGN KEY(study_id)
+        REFERENCES study_programs(study_id),
+	CONSTRAINT course_id_fk
+		FOREIGN KEY(course_id)
+        REFERENCES courses(course_id)
 );

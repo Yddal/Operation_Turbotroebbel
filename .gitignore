@@ -52,5 +52,5 @@ quick_check.py
 my_agent
 scan_course_ids.py
 requirements.txt
-FastMCP/*
 fagskolen_agent/.adk/session.db
+e-l/

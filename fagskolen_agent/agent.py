@@ -1,4 +1,5 @@
 from google.adk.agents.llm_agent import Agent
+from google.adk.agents.sequential_agent import SequentialAgent
 from google.adk.tools.mcp_tool import McpToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnectionParams
 
@@ -42,7 +43,6 @@ Presenting_agent = Agent(
     description="Go through the data and structure it to be readable for a user.",
     instruction="You are a helpful assistant that structures incoming data to a presentable way for a human. \
         You will get information from the retriever_agent and structure it for humans to answer their questions.",
-    sub_agents=[Verify_agent],
     )
 
 retriver_agent = Agent(
@@ -58,16 +58,22 @@ retriver_agent = Agent(
         Do not respond to other requests. \
         Return the information in a understandable format for a LLM and send it to the Presenting_agent subagent",
     tools=[toolset],
-    sub_agents=[Presenting_agent],
     )
 
-root_agent = Agent(
+input_agent = Agent(
     model=model_root,
-    name='Planner_agent',
+    name='input_agent',
     description="Understand what the user want and forward the information",
     instruction="You are a helpful assistant that answer questions about Fagskolen i Viken. \
         Your job is to structure the message to the retriever_agent subagent and ask for data based on user input. \
         Do not answer questions unrelated to Fagskolen i Viken studies and courses. \
         If you cannot retrieve any information refer the user to this website: https://fagskolen-viken.no/",
-    sub_agents=[retriver_agent],
     )
+
+
+root_agent = SequentialAgent( 
+    name="root_agent",
+    sub_agents=[input_agent, retriver_agent, Presenting_agent, Verify_agent],
+    description="Executes a sequence of code writing, reviewing, and refactoring.",  
+
+)

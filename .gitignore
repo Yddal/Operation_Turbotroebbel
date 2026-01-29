@@ -1,5 +1,6 @@
 # google adk
 .adk/
+.adk/session.db
 
 # Virtual environments
 .venv/
@@ -48,6 +49,7 @@ Thumbs.db
 testing_kyd.py
 check_locations.py
 quick_check.py
+my_agent
 scan_course_ids.py
 requirements.txt
 FastMCP/*

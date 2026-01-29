@@ -25,7 +25,7 @@ class TableStudyPrograms:
         Get the name of all the study programs in the category.
         Returns a list of names for all the study programs in a category.
         '''
-        result = self.conn.query(f"SELECT study_title FROM {self.table} WHERE study_category = {category}")
+        result = self.conn.query(f'SELECT study_title FROM {self.table} WHERE study_category = "{category}"')
         return [title[0] for title in result]
     
     def get_study_programs_names(self) -> list[str]:
@@ -57,7 +57,7 @@ class TableStudyPrograms:
         result = self.conn.query(f'SELECT {",".join(fields)} FROM {self.table} WHERE study_title = "{program_name}"')
         return dict(zip(fields,result[0]))
        
-    
+    '''
     def get_study_info(self, study_title) -> list:
         """
         Get all information about the study. Send the filter search for what you want from the database in the variable course_title
@@ -66,15 +66,6 @@ class TableStudyPrograms:
         result = self.conn.query(f"SELECT * FROM {self.table} WHERE study_title = {study_title}")
 
         return result
-    '''
-    SELECT `COLUMN_NAME` 
-    FROM `INFORMATION_SCHEMA`.`COLUMNS` 
-    WHERE `TABLE_SCHEMA`='fagskolen' 
-    AND `TABLE_NAME`='study_programs';
-    '''
-
-    '''
-    DESCRIBE fagskolen.study_programs;
     '''
     
     
@@ -87,10 +78,12 @@ if __name__ == "__main__":
 
         #results = programs.get_number_of_study_programs()
         #results = programs.get_study_program_categories()
+        results = programs.get_category_study_programs("Helse")
         #results = programs.get_study_programs_names()
         #results = programs.get_datafields()
         #results = programs.get_datafields_values("Akuttgeriatri", ["location_id", "credits"])
-        results = programs.get_study_info("Anlegg")
+        
+        #results = programs.get_study_info("Anlegg")
         
         print(results)
 

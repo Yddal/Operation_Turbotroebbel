@@ -4,6 +4,10 @@ from database_connection import DBConnection
 from study_program_tools import TableStudyPrograms
 from courses_tools import TableCourses
 
+"""
+MCP server with the tools for the Agent to retrive data from the database.
+"""
+
 DATABASE = "fagskolen"
 STUDY_PROGRAM_TABLE = "study_programs"
 COURSES_TABLE = "courses"
@@ -12,7 +16,7 @@ mcp = FastMCP(name="MyServer")
 
 async def main():
     # Use run_async() in async contexts
-    await mcp.run_async(transport="http", port=8000)
+    await mcp.run_async(transport="http", port=8001)
 
 if __name__ == "__main__":
     # establish database connection

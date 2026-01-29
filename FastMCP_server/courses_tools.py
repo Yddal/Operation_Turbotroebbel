@@ -1,6 +1,10 @@
 import mysql.connector
 from database_connection import DBConnection
 
+"""
+Methods for quering the Courses table, to be exposed as tools in the MCP Server
+"""
+
 class TableCourses:
     def __init__(self, conn: DBConnection, table: str):
         self.conn = conn
@@ -29,8 +33,11 @@ class TableCourses:
         return result
     
 if __name__ == "__main__":
+
     DATABASE = "fagskolen"
     COURSES_TABLE = "courses"
+
+    # verify method outputs
     try:
         db_conn = DBConnection()
         courses = TableCourses(db_conn, f"{DATABASE}.{COURSES_TABLE}")

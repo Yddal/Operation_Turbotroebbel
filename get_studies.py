@@ -3,15 +3,15 @@ from urllib.request import Request, urlopen
 import time
 import json
 
-
-APPEN_FOR_OPPTAK = "f[0]=apent_for_opptak%3A1&"
-
+BASE_URL = "https://fagskolen-viken.no"
+APPENT_FOR_OPPTAK = "f[0]=apent_for_opptak%3A1&"
 buffer_file = r"studies_urls.json"
+
 """
-les ut alle nettside linkene til studiene ved fagskolen
+leser ut alle nettside linkene til studiene ved fagskolen
 """
 
-def get_urls(use_buffer = False):
+def get_urls(use_buffer:bool = False, only_available_studies:bool=True):
     # les url fra buffer
     if use_buffer:
         with open(buffer_file, "r") as file:
@@ -19,15 +19,13 @@ def get_urls(use_buffer = False):
         return urls
     # hent linker fra nettside og lagre i buffer
     else:
-        urls = scrape_urls()
+        urls = scrape_urls(only_available_studies)
         with open(buffer_file, "w") as file:
             file.write(json.dumps(urls))
         return urls
 
 
-def scrape_urls() -> list:
-
-    base_url = "https://fagskolen-viken.no/"
+def scrape_urls(only_available_studies:bool) -> list:
 
     # studiene er listet over flere sider, så inkrementer sidetall til alt er lest ut
     page = 0
@@ -35,7 +33,8 @@ def scrape_urls() -> list:
     while True:
 
         # send
-        req = Request(f"{base_url}studier?{APPEN_FOR_OPPTAK}page={page}", headers={"User-Agent": "Mozilla/5.0"})
+        url = f"{BASE_URL}/studier?{APPENT_FOR_OPPTAK if only_available_studies else ""}page={page}"
+        req = Request(url, headers={"User-Agent": "Mozilla/5.0"})
         html = urlopen(req).read().decode("utf-8", errors="ignore")
         soup = BeautifulSoup(html, "lxml")
 
@@ -48,7 +47,7 @@ def scrape_urls() -> list:
 
         # legg linker i listen
         for link in results:
-            urls.append(base_url + link['href'])
+            urls.append(BASE_URL + link['href'])
 
         page += 1
 
@@ -58,7 +57,7 @@ def scrape_urls() -> list:
     return urls
 
 if __name__ == "__main__":
-    urls = get_urls(use_buffer=False)
+    urls = get_urls(use_buffer=True)
     print(f"Fagskolen tilbyr {len(urls)} forskejellige studier")
     print(f"{len(urls)} linker funnet")
     for url in urls:

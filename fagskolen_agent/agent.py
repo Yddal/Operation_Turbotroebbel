@@ -7,7 +7,7 @@ import warnings
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
-MCP_SERVER = "http://127.0.0.1:8000/mcp"
+MCP_SERVER = "http://127.0.0.1:8001/mcp"
 
 toolset = McpToolset(
     connection_params=StreamableHTTPConnectionParams(    

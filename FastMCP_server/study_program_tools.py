@@ -1,6 +1,10 @@
 import mysql.connector
 from database_connection import DBConnection
 
+"""
+Methods for quering the Study Programs table, to be exposed as tools in the MCP Server
+"""
+
 class TableStudyPrograms:
     def __init__(self, conn: DBConnection, table: str):
         self.conn = conn
@@ -56,22 +60,13 @@ class TableStudyPrograms:
         '''
         result = self.conn.query(f'SELECT {",".join(fields)} FROM {self.table} WHERE study_title = "{program_name}"')
         return dict(zip(fields,result[0]))
-       
-    '''
-    def get_study_info(self, study_title) -> list:
-        """
-        Get all information about the study. Send the filter search for what you want from the database in the variable course_title
-        """
-        study_title = "'" + study_title + "'"
-        result = self.conn.query(f"SELECT * FROM {self.table} WHERE study_title = {study_title}")
-
-        return result
-    '''
     
     
 if __name__ == "__main__":
     DATABASE = "fagskolen"
     STUDY_PROGRAM_TABLE = "study_programs"
+
+    # verify method outputs
     try:
         db_conn = DBConnection()
         programs = TableStudyPrograms(db_conn, f"{DATABASE}.{STUDY_PROGRAM_TABLE}")

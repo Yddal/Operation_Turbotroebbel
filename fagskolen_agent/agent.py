@@ -15,10 +15,20 @@ toolset = McpToolset(
     ),
 )
 
+"""
+- models/gemma-3-1b-it
+- models/gemma-3-4b-it
+- models/gemma-3-12b-it
+- models/gemma-3-27b-it
+"""
+
+model_verify     = 'gemma-3-12b-it'
+model_presenting = 'gemma-3-27b-it'
+model_retriver   = 'gemma-3-4b-it'
+model_root       = 'gemma-3-1b-it'
+
 Verify_agent = Agent(
-    #model='gemini-2.5-flash',
-    model='gemini-2.5-flash-lite',
-    #model='gemini-2.5-flash-tts',
+    model=model_verify,
     name='Verify_agent',
     description="Verify the incoming information and send ut to the user",
     instruction="Your job is to verify that the question from the user has been answered. \
@@ -26,9 +36,7 @@ Verify_agent = Agent(
     )
 
 Presenting_agent = Agent(
-    #model='gemini-2.5-flash',
-    model='gemini-2.5-flash-lite',
-    #model='gemini-2.5-flash-tts',
+    model=model_presenting,
     name='Presenting_agent',
     description="Go through the data and structure it to be readable for a user.",
     instruction="You are a helpful assistant that structures incoming data to a presentable way for a human. \
@@ -37,9 +45,7 @@ Presenting_agent = Agent(
     )
 
 retriver_agent = Agent(
-    #model='gemini-2.5-flash',
-    model='gemini-2.5-flash-lite',
-    #model='gemini-3-flash',
+    model=model_retriver,
     name='retriver_agent',
     description="Retrives information about the study programs and courses available at Fagskolen i Viken",
     instruction="You are responsible for retriving information about the study programs and courses at Fagskolen i Viken. \
@@ -55,9 +61,7 @@ retriver_agent = Agent(
     )
 
 root_agent = Agent(
-    #model='gemini-2.5-flash',
-    model='gemini-2.5-flash-lite',
-    #model='gemini-3-flash',
+    model=model_root,
     name='Planner_agent',
     description="Understand what the user want and forward the information",
     instruction="You are a helpful assistant that answer questions about Fagskolen i Viken. \

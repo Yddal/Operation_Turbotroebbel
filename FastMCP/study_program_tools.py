@@ -20,16 +20,27 @@ class TableStudyPrograms:
         result = self.conn.query(f"SELECT study_title FROM {self.table}")
         return [title[0] for title in result]
     
+    def get_study_info(self, study_title) -> list:
+        """
+        Get all information about the study. Send the filter search for what you want from the database in the variable course_title
+        """
+        study_title = "'" + study_title + "'"
+        result = self.conn.query(f"SELECT * FROM {self.table} WHERE study_title = {study_title}")
+
+        return result
+    
 if __name__ == "__main__":
     DATABASE = "fagskolen"
     STUDY_PROGRAM_TABLE = "study_programs"
     try:
         db_conn = DBConnection()
-        courses = TableStudyPrograms(db_conn, f"{DATABASE}.{STUDY_PROGRAM_TABLE}")
+        studies = TableStudyPrograms(db_conn, f"{DATABASE}.{STUDY_PROGRAM_TABLE}")
 
-        result = courses.get_number_of_study_programs()
+        result = studies.get_number_of_study_programs()
         print(result)
-        result = courses.get_study_programs_names()
+        result = studies.get_study_programs_names()
+        print(result)
+        result = studies.get_study_info("Anvendt Maskinlæring")
         print(result)
 
     except mysql.connector.Error as err:

@@ -6,7 +6,8 @@ class DBConnection:
         self.conn = mysql.connector.connect(
             host=host,
             user=user,
-            password=password
+            password=password,
+            use_pure=True
         )
         self.cursor = self.conn.cursor()
 

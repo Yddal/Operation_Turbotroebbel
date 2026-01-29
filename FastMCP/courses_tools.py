@@ -19,6 +19,14 @@ class TableCourses:
         '''
         result = self.conn.query(f"SELECT course_title FROM {self.table}")
         return [title[0] for title in result]
+    def get_course_info(self, course_title) -> list:
+        """
+        Get all information about the study. Send the filter search for what you want from the database in the variable course_title
+        """
+        course_title = "'" + course_title + "'"
+        result = self.conn.query(f"SELECT * FROM {self.table} WHERE course_title = {course_title}")
+
+        return result
     
 if __name__ == "__main__":
     DATABASE = "fagskolen"
@@ -31,6 +39,9 @@ if __name__ == "__main__":
         print(result)
         result = courses.get_corse_names()
         print(result)
+        result = courses.get_course_info("praksis")
+        print(result)
+
 
     except mysql.connector.Error as err:
         print(f"Error: {err}")

@@ -44,9 +44,6 @@ Verify_agent = Agent(
         **Presenting_text** \
         {Presenting_text} \
         \
-        ** Review Comments:** \
-        {verified_information} \
-        \
         ** Task:** \
         Look through the presenting text and check for errors, return the corrected information \
         if the question is not answered, refer the user to this website: https://fagskolen-viken.no/ \
@@ -60,10 +57,7 @@ Presenting_agent = Agent(
     description="Go through the data and structure it to be readable for a user.",
     instruction="You are a helpful assistant that structures incoming data to a presentable way for a human. \
         **Information_from_database** \
-        {Presenting_text} \
-        \
-        **Presenting_text:** \
-        {Presenting_text} \
+        {Information_from_database} \
         \
         ** Task:** \
         Structure the incoming information so that it is easy to read and understand. Use bulletpoints and short text \
@@ -79,9 +73,6 @@ retriver_agent = Agent(
     instruction="You are responsible for retriving information about the study programs and courses at Fagskolen i Viken.  \
         **Question_from_user** \
         {Question_from_user} \
-        \
-        **Information_from_database:** \
-        {Information_from_database} \
         \
         ** Task:** \
         You can only retrieve the requested information using the provided tools. \
@@ -102,6 +93,7 @@ input_agent = Agent(
     instruction="Your job is to take input from the user and structure it to get the correct data from other agents.  \
         ** Task:** \
         Do not answer questions unrelated to Fagskolen i Viken studies and courses. \
+        Take data from the user and send it to the agents, answer only with text received from the verified_information \
         If the question is unrelated to Fagskolen Viken refer to this website: https://fagskolen-viken.no/ \
         Do not use information from the internet to correct the data.",
     output_key= 'Question_from_user'

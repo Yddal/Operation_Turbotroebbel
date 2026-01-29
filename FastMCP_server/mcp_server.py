@@ -29,7 +29,7 @@ if __name__ == "__main__":
     mcp.tool(study_programs.get_study_programs_names)
     mcp.tool(study_programs.get_datafields)
     mcp.tool(study_programs.get_datafields_values)
-    mcp.tool(study_programs.get_study_info)
+
 
     # add methods as tools for courses
     mcp.tool(courses.get_number_of_courses)

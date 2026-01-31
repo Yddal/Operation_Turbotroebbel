@@ -65,7 +65,10 @@ retriver_agent = Agent(
         Use the get_study_program_categories tool to get the different categories for the study programs. \
         Use the get_study_programs_names to get a complete list of the available study programs. \
         Use the get_datafields tool to get the names of the available datafields for a study program. \
-        Use the get_datafields_values tool to get more information about a study. \
+        Use the get_datafields_values tool to get more information about a study.  \
+        Use the get_study_program_courseIDs tool to get the course IDs for a study program, provide the study program name as argument. \
+        Use the get_course_info_ID tool to get information about a specific course, provide the course ID as argument. \
+        Use the get_study_program_location tool to get the location of a study program, provide the location_id data field as argument. \
         Do not respond to other requests. \
         Return the information in a understandable format for a LLM.",
     tools=[toolset],

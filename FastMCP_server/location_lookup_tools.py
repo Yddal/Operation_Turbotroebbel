@@ -2,34 +2,37 @@ import mysql.connector
 from database_connection import DBConnection
 
 """
-Methods for quering the Study Courses lookup table, to be exposed as tools in the MCP Server
+Methods for quering the Study Program location lookup table, to be exposed as tools in the MCP Server
 """
 
-class TableStudyCoursesLookup:
+class TableStudyProgramLocationLookup:
     def __init__(self, conn: DBConnection, table: str):
         self.conn = conn
         self.table = table
     
-    def get_study_program_courseIDs(self, study_title:str) -> list[str]:
+    def get_study_program_location(self, location_id:int) -> str:
         """
-        Get a list of course IDs for a given study program title.
-        Returns a list of course IDs. Empty list if no courses found.
+        Get the name of location for a given location_id.
+        Returns a name of locations.
         """
-        results = self.conn.query(f"SELECT DISTINCT course_id FROM {self.table} WHERE study_title = '{study_title}'")
-        return [result[0] for result in results]
+        results = self.conn.query(f"SELECT DISTINCT location_name FROM {self.table} WHERE location_id = '{location_id}'")
+        if results:
+            return results[0][0]
+        else:
+            return ""
     
    
     
 if __name__ == "__main__":
     DATABASE = "fagskolen"
-    STUDY_PROGRAM_COURSE_ID_TABLE = "lookuptalbe_study_course"
+    STUDY_PROGRAM_LOCATION_TABLE = "study_place"
 
     # verify method outputs
     try:
         db_conn = DBConnection()
-        programs = TableStudyCoursesLookup(db_conn, f"{DATABASE}.{STUDY_PROGRAM_COURSE_ID_TABLE}")
+        programs = TableStudyProgramLocationLookup(db_conn, f"{DATABASE}.{STUDY_PROGRAM_LOCATION_TABLE}")
 
-        results = programs.get_study_program_courseIDs("Elkraft")
+        results = programs.get_study_program_location(2)
         
         print(results)
 

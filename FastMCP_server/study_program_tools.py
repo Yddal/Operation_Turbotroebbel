@@ -49,7 +49,6 @@ class TableStudyPrograms:
         return [result[0] for result in results[2:]]
 
 
-
     def get_datafields_values(self, program_name:str, fields: list[str]) -> dict[str,str]:
         '''
         Returns the values of datafiels for a study program.
@@ -59,17 +58,19 @@ class TableStudyPrograms:
         Returns a dictonary with all the datafield names and values.
         '''
         result = self.conn.query(f'SELECT {",".join(fields)} FROM {self.table} WHERE study_title = "{program_name}"')
+        if not result:
+            return {}
         return dict(zip(fields,result[0]))
     
     
 if __name__ == "__main__":
     DATABASE = "fagskolen"
-    STUDY_PROGRAM_TABLE = "study_programs"
+    STUDY_LOCATION_TABLE = "study_programs"
 
     # verify method outputs
     try:
         db_conn = DBConnection()
-        programs = TableStudyPrograms(db_conn, f"{DATABASE}.{STUDY_PROGRAM_TABLE}")
+        programs = TableStudyPrograms(db_conn, f"{DATABASE}.{STUDY_LOCATION_TABLE}")
 
         #results = programs.get_number_of_study_programs()
         #results = programs.get_study_program_categories()

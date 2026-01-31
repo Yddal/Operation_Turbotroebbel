@@ -10,6 +10,7 @@ import pandas as pd
 from bs4 import BeautifulSoup
 from typing import Dict, List, Optional, Any
 from urllib.request import Request, urlopen
+import os
 
 study_locations = {
     0: "Kongsberg",
@@ -197,7 +198,7 @@ class StudyDataExtractor:
             'language': None,
             'level': None,
             'why_choose': None,
-            'what_learn': None,
+            'learnings': None,
             'teaching_format': None,
             'mandatory_attendance': None,
             'police_certificate': None,
@@ -247,14 +248,14 @@ class StudyDataExtractor:
             # Why choose this study
             study_info['why_choose'] = self.extract_section_text('Hvorfor velge dette studiet?')
             
-            # What you learn
+            # Learnings
             learn_text = self.extract_section_text('Hva lærer du?')
             if not learn_text:
                 # Try to get from the courses body section
                 courses_body = self.soup.select_one('.study-detail--courses__body')
                 if courses_body:
                     learn_text = courses_body.get_text(separator=" | ",strip=True)
-            study_info['what_learn'] = learn_text
+            study_info['learnings'] = learn_text
             
             # Teaching format and attendance
             #TODO: Skal denne fjernes? Informasjonen står allerede i mandatory_attendance.
@@ -309,7 +310,7 @@ class StudyDataExtractor:
                     'language': study_info['language'],
                     'level': study_info['level'],
                     'why_choose': study_info['why_choose'],
-                    'what_learn': study_info['what_learn'],
+                    'learnings': study_info['learnings'],
                     'teaching_format': study_info['teaching_format'],
                     'mandatory_attendance': study_info['mandatory_attendance'],
                     'police_certificate': study_info['police_certificate'],
@@ -342,6 +343,7 @@ class StudyDataExtractor:
     def to_json(self, output_file: str = 'study_data_structure.json'):
         """Export structured data to JSON file."""
         data = self.structure_for_database()
+        path = os.path.join(os.path.dirname(__file__))+"\\"
         folder = "json_for_processing/"
         
         # Convert None to null in JSON and pretty print
@@ -349,9 +351,9 @@ class StudyDataExtractor:
         
         # Define the full path to the file
         if data['study_programs'][0]['id'] is not None:
-            output_file = folder + data['study_programs'][0]['id'] + ".json"
+            output_file = path + folder + data['study_programs'][0]['id'] + ".json"
         else:
-            output_file = folder + output_file
+            output_file = path + folder + output_file
         
         output_file = Path(output_file)
         # sjekk om mappe eksisterer, hvis ikke opprett.

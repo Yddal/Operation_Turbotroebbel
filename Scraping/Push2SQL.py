@@ -113,10 +113,10 @@ def ensure_location(cursor, name: str, existing: Dict[str, int], next_id_ref: Li
 
 def upsert_course(cursor, course: Dict[str, Any]):
     sql = (
-        "INSERT INTO courses (course_id, course_title, credits, url, study_level, lear_out_know, lear_out_skills, lear_out_competence) "
+        "INSERT INTO courses (course_id, course_title, credits, url, study_level, learned_knowledge, learned_skills, learned_competence) "
         "VALUES (%s,%s,%s,%s,%s,%s,%s,%s) "
         "ON DUPLICATE KEY UPDATE course_title=VALUES(course_title), credits=VALUES(credits), url=VALUES(url), study_level=VALUES(study_level), "
-        "lear_out_know=VALUES(lear_out_know), lear_out_skills=VALUES(lear_out_skills), lear_out_competence=VALUES(lear_out_competence)"
+        "learned_knowledge=VALUES(learned_knowledge), learned_skills=VALUES(learned_skills), learned_competence=VALUES(learned_competence)"
     )
     learning = course.get("learning_outcomes", {})
     know = learning.get("knowledge") if isinstance(learning, dict) else None
@@ -139,9 +139,9 @@ def upsert_course(cursor, course: Dict[str, Any]):
 
 def upsert_study_program(cursor, program: Dict[str, Any], location_id: Optional[int]):
     sql = (
-        "INSERT INTO study_programs (study_id, study_title, study_description, study_category, location_id, credits, study_language, study_lvl, why_choose, what_learn, teaching_format, mandatory_attendance, police_certificate, career_opportunities, contact_info, study_url, course_id) "
+        "INSERT INTO study_programs (study_id, study_title, study_description, study_category, location_id, credits, study_language, study_level, why_choose, learnings, teaching_format, mandatory_attendance, police_certificate, career_opportunities, contact_info, study_url, course_id) "
         "VALUES (%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s,%s) "
-        "ON DUPLICATE KEY UPDATE study_title=VALUES(study_title), study_description=VALUES(study_description), study_category=VALUES(study_category), location_id=VALUES(location_id), credits=VALUES(credits), study_language=VALUES(study_language), study_lvl=VALUES(study_lvl), why_choose=VALUES(why_choose), what_learn=VALUES(what_learn), teaching_format=VALUES(teaching_format), mandatory_attendance=VALUES(mandatory_attendance), police_certificate=VALUES(police_certificate), career_opportunities=VALUES(career_opportunities), contact_info=VALUES(contact_info), study_url=VALUES(study_url), course_id=VALUES(course_id)"
+        "ON DUPLICATE KEY UPDATE study_title=VALUES(study_title), study_description=VALUES(study_description), study_category=VALUES(study_category), location_id=VALUES(location_id), credits=VALUES(credits), study_language=VALUES(study_language), study_level=VALUES(study_level), why_choose=VALUES(why_choose), learnings=VALUES(learnings), teaching_format=VALUES(teaching_format), mandatory_attendance=VALUES(mandatory_attendance), police_certificate=VALUES(police_certificate), career_opportunities=VALUES(career_opportunities), contact_info=VALUES(contact_info), study_url=VALUES(study_url), course_id=VALUES(course_id)"
     )
 
     police = program.get("police_certificate")
@@ -162,7 +162,7 @@ def upsert_study_program(cursor, program: Dict[str, Any], location_id: Optional[
             program.get("language"),
             program.get("level"),
             program.get("why_choose"),
-            program.get("what_learn"),
+            program.get("learnings"),
             program.get("teaching_format"),
             program.get("mandatory_attendance"),
             police_val,
@@ -227,7 +227,7 @@ def main(argv: Optional[List[str]] = None):
             programs = data.get("study_programs", []) or []
 
             # Upsert courses
-            for c in course
+            for c in courses:
                 cid = c.get("id")
                 print("  Course:", cid)
                 if not cid:

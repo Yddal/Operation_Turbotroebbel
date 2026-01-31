@@ -9,9 +9,9 @@ CREATE TABLE IF NOT EXISTS courses
     credits NUMERIC(12, 5),
     url VARCHAR(200),
     study_level VARCHAR(100),
-    lear_out_know TEXT,
-    lear_out_skills TEXT,
-    lear_out_competence TEXT
+    learned_knowledge TEXT,
+    learned_skills TEXT,
+    learned_competence TEXT
 );
 
 CREATE TABLE IF NOT EXISTS study_place
@@ -30,9 +30,9 @@ CREATE TABLE IF NOT EXISTS study_programs
     location_id SMALLINT,
     credits DECIMAL (12, 5),
     study_language VARCHAR(50),
-    study_lvl VARCHAR(100),
+    study_level VARCHAR(100),
     why_choose TEXT,
-    what_learn TEXT,
+    learnings TEXT,
     teaching_format TEXT,
     mandatory_attendance TEXT,
     police_certificate BOOLEAN,

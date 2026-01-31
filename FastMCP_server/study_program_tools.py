@@ -73,12 +73,10 @@ if __name__ == "__main__":
 
         #results = programs.get_number_of_study_programs()
         #results = programs.get_study_program_categories()
-        results = programs.get_category_study_programs("Helse")
+        #results = programs.get_category_study_programs("Helse")
         #results = programs.get_study_programs_names()
         #results = programs.get_datafields()
-        #results = programs.get_datafields_values("Akuttgeriatri", ["location_id", "credits"])
-        
-        #results = programs.get_study_info("Anlegg")
+        results = programs.get_datafields_values("Akuttgeriatri", ["location_id", "credits"])
         
         print(results)
 

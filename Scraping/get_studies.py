@@ -14,7 +14,7 @@ leser ut alle nettside linkene til studiene ved fagskolen
 
 def get_urls(buffer_file: str, use_buffer:bool = False, only_available_studies:bool=True):
     # les url fra buffer
-    if use_buffer:
+    if use_buffer and os.path.exists(buffer_file):
         with open(buffer_file, "r") as file:
             urls = json.loads(file.read())
         return urls
@@ -53,13 +53,14 @@ def scrape_urls(only_available_studies:bool) -> list:
         page += 1
 
         # vent litt mellom hver forespørsel
-        time.sleep(0.5)
+        time.sleep(1)
 
     return urls
 
 if __name__ == "__main__":
     path = os.path.join(os.path.dirname(__file__))+"\\"
-    urls = get_urls(path + FILE, use_buffer=False)
+    urls = get_urls(path + FILE, use_buffer=True)
+    
     print(f"Fagskolen tilbyr {len(urls)} forskejellige studier")
     print(f"{len(urls)} linker funnet")
     for url in urls:

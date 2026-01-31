@@ -55,3 +55,4 @@ requirements.txt
 fagskolen_agent/.adk/session.db
 e-l/
 Scraping/*.json
+Scraping/json_for_processing/*.json

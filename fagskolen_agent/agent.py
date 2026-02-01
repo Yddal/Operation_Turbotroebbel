@@ -55,10 +55,21 @@ retriver_agent = Agent(
     description="Retrieves data about Fagskolen i Viken study programs and courses using only the provided tools.",
     instruction=r"""Your only job is to retrieve requested information using the listed tools. \
     - Input: {Question_from_user} \
-    - Use exactly these tools and commands: get_study_program_categories, get_study_programs_names, get_datafields, get_datafields_values, get_study_program_courseIDs, get_course_info_ID, get_study_program_location. \
+    - Use exactly these tools and commands: get_study_program_categories, get_study_programs_names, get_study_program_datafields, get_study_program_datafields_values, get_course_datafields,  get_course_datafields_values, get_study_program_courseIDs, get_course_info_ID, get_study_program_location. \
     - For each tool call include arguments as required and preserve tool outputs verbatim. \
     - Output a structured result: {"status":"success"|"error","data":{...},"tool_calls":[{name, args, result}]} \
-    - Do not invent facts or consult the web.""",
+    - Do not invent facts or consult the web.
+    - Only use the provided tools. \
+    - Use the get_study_program_categories tool to get the different categories for the study programs. \
+    - Use the get_study_programs_names to get a complete list of the available study programs. \
+    - Use the get_study_program_datafields tool list the names of the available datafields for a study program. \
+    - Use the get_study_program_datafields_values tool to get the values for a specific study program and datafields. \
+    - Use the get_course_datafields tool list the names of the available datafields for a course. \
+    - Use the get_course_datafields_values tool to get the values for a specific course and datafields. \
+    - Use the get_study_program_courseIDs tool to get the course IDs for a study program, provide the study program name as argument. \
+    - Use the get_course_info_ID tool to get information about a specific course, provide the course ID as argument. \
+    - Use the get_study_program_location tool to get the location of a study program, provide the location_id data field as argument. \
+    - Do not respond to other requests.""",
     tools=[toolset],
     output_key='retrieved_data'
     )

@@ -70,7 +70,7 @@ class TableCourses:
         return {"status":"success", "result": [course[0] for course in result]}
     
 
-    def get_datafields(self) -> dict:
+    def get_course_datafields(self) -> dict:
         """
         One-line: Return available data field names for the courses table.
 
@@ -89,7 +89,7 @@ class TableCourses:
         return {"status":"success", "result": [result[0] for result in results[1:]]}
 
 
-    def get_datafields_values(self, course_id: str, fields: list[str]) -> dict:
+    def get_course_datafields_values(self, course_id: str, fields: list[str]) -> dict:
         """
         One-line: Return requested data field values for a course.
 
@@ -125,8 +125,8 @@ if __name__ == "__main__":
         #result = courses.get_number_of_courses()
         #result = courses.get_all_course_titles()
         #result = courses.get_course_ID("Apputvikling")
-        #result = courses.get_datafields()
-        result = courses.get_datafields_values("01TD01B", ["credits"])
+        #result = courses.get_course_datafields()
+        result = courses.get_course_datafields_values("01TD01B", ["credits"])
         
         print(result)
 

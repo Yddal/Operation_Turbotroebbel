@@ -12,7 +12,7 @@ class TableStudyProgramLocationLookup:
     
     def get_study_program_location(self, location_id:int) -> str:
         """
-        One-line: Return the location name for a given location ID.
+        One-line: Return the name of the study location for a given location ID.
 
         Parameters:
             location_id (int): Unique integer id for the location.

@@ -104,7 +104,7 @@ class TableStudyPrograms:
         return {"status":"success", "result": [title[0] for title in result]}
     
 
-    def get_datafields(self) -> dict:
+    def get_study_program_datafields(self) -> dict:
         """
         One-line: Return available data field names for the study_programs table.
 
@@ -126,7 +126,7 @@ class TableStudyPrograms:
         return {"status":"success", "result": [result[0] for result in results[2:]]}
 
 
-    def get_datafields_values(self, program_name: str, fields: list[str]) -> dict:
+    def get_study_program_datafields_values(self, program_name: str, fields: list[str]) -> dict:
         """
         One-line: Return requested data field values for a study program.
 
@@ -167,8 +167,8 @@ if __name__ == "__main__":
         #results = programs.get_study_program_categories()
         #results = programs.get_category_study_programs("Helse")
         #results = programs.get_study_programs_names()
-        #results = programs.get_datafields()
-        results = programs.get_datafields_values("Akuttgeriatri", ["location_id", "credits"])
+        #results = programs.get_study_program_datafields()
+        results = programs.get_study_program_datafields_values("Akuttgeriatri", ["location_id", "credits"])
         
         print(results)
 

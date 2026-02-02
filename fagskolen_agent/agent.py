@@ -1,45 +1,55 @@
+from enum import Enum, auto
+import os
 from google.adk.agents.llm_agent import Agent
 from google.adk.agents.sequential_agent import SequentialAgent
 from google.adk.tools import AgentTool
 from google.adk.tools.mcp_tool import McpToolset
 from google.adk.tools.mcp_tool.mcp_session_manager import StreamableHTTPConnectionParams
-
+from google.adk.models.lite_llm import LiteLlm  # Required for Ollama
 import warnings
+
+class agent_model(Enum):
+    GEMINI_2_5_FLASH = auto()
+    GEMINI_3_FLASH = auto()
+    QWEN3_14B = auto()
+
 # Ignore all warnings
 warnings.filterwarnings("ignore")
 
 MCP_SERVER = "http://127.0.0.1:8001/mcp"
 
 toolset = McpToolset(
-    connection_params=StreamableHTTPConnectionParams(    
-        url=MCP_SERVER,     
-        #headers={"Authorization": "Bearer your-auth-token"}
-    ),
+    connection_params=StreamableHTTPConnectionParams(url=MCP_SERVER,),
 )
 
-# models
-GEMMA_3_1B = "gemma-3-1b-it"
-GEMMA_3_4B = "gemma-3-4b-it"
-GEMMA_3_12B = "gemma-3-12b-it"
-GEMMA_3_27B = "gemma-3-27b-it"
-GEMINI_2_5_FLASH = "gemini-2.5-flash"
 
-use_good_models = 1
+match agent_model.GEMINI_2_5_FLASH:
 
-if use_good_models == 1:
-    model_verify     = GEMINI_2_5_FLASH
-    model_presenting = GEMINI_2_5_FLASH
-    model_retriver   = GEMINI_2_5_FLASH
-    model_root       = GEMINI_2_5_FLASH
-else:
-    model_verify     = GEMMA_3_12B
-    model_presenting = GEMMA_3_27B
-    model_retriver   = GEMMA_3_4B
-    model_root       = GEMMA_3_1B
+    case agent_model.GEMINI_2_5_FLASH:
+        model_choice  = "gemini-2.5-flash"
+
+    case agent_model.GEMINI_3_FLASH:
+        model_choice  = "gemini-3-flash-preview"
+
+    case agent_model.QWEN3_14B:
+        # Set the Ollama API base URL if it's not the default
+        os.environ["OLLAMA_API_BASE"] = "http://localhost:11434"
+        model_choice = LiteLlm(model="ollama_chat/qwen3:14b")
+
+    case _:
+        # default
+        model_choice  = "gemini-2.5-flash"
+
+model_verify     = model_choice
+model_presenting = model_choice
+model_retriver   = model_choice
+model_root       = model_choice
+model_input      = model_choice
+
 
 
 input_agent = Agent(
-    model=model_root,
+    model=model_input,
     name='input_agent',
     description="Parses user input and emits a structured query for downstream agents (stored at output_key 'Question_from_user').",
     instruction=r"""You parse raw user messages about Fagskolen i Viken. \

@@ -23,7 +23,7 @@ toolset = McpToolset(
 )
 
 
-match agent_model.GEMINI_2_5_FLASH:
+match agent_model.QWEN3_14B:
 
     case agent_model.GEMINI_2_5_FLASH:
         model_choice  = "gemini-2.5-flash"
@@ -42,7 +42,7 @@ match agent_model.GEMINI_2_5_FLASH:
 
 model_verify     = model_choice
 model_presenting = model_choice
-model_retriver   = model_choice
+model_retriever  = model_choice
 model_root       = model_choice
 model_input      = model_choice
 
@@ -60,8 +60,8 @@ input_agent = Agent(
     )
 
 retriver_agent = Agent(
-    model=model_retriver,
-    name='retriver_agent',
+    model=model_retriever,
+    name='retriever_agent',
     description="Retrieves data about Fagskolen i Viken study programs and courses using only the provided tools.",
     instruction=r"""Your only job is to retrieve requested information using the listed tools. \
     - Input: {Question_from_user} \
